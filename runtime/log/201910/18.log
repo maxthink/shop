@@ -1,0 +1,161 @@
+---------------------------------------------------------------
+[2019-10-18T17:40:16+08:00] 115.171.245.154 GET maxthink.cn/
+[运行时间：0.035637s] [吞吐率：28.06req/s] [内存消耗：2,346.45kb] [文件加载：133]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/jinli/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-18T17:53:08+08:00] 185.89.125.161 GET 123.57.56.8/
+[运行时间：0.066439s] [吞吐率：15.05req/s] [内存消耗：2,211.80kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => '',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'en-US',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'host' => '123.57.56.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/jinli/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-18T17:59:05+08:00] 185.63.102.241 GET 123.57.56.8:80/
+[运行时间：0.032586s] [吞吐率：30.69req/s] [内存消耗：2,211.34kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/jinli/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-18T18:00:25+08:00] 115.171.245.154 GET maxthink.cn/wx
+[运行时间：0.129399s] [吞吐率：7.73req/s] [内存消耗：2,573.20kb] [文件加载：181]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/jinli/application/wx/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-18T18:00:25+08:00] 115.171.245.154 GET maxthink.cn/wx/js/app.431a8c42.js
+[运行时间：0.081887s] [吞吐率：12.21req/s] [内存消耗：2,203.38kb] [文件加载：133]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://maxthink.cn/wx',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-18T18:00:25+08:00] 115.171.245.154 GET maxthink.cn/wx/js/chunk-vendors.2f53ae7a.js
+[运行时间：0.086936s] [吞吐率：11.50req/s] [内存消耗：2,203.41kb] [文件加载：133]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://maxthink.cn/wx',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-18T18:00:25+08:00] 115.171.245.154 GET maxthink.cn/wx/css/app.7d6a74f1.css
+[运行时间：0.080790s] [吞吐率：12.38req/s] [内存消耗：2,203.41kb] [文件加载：133]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://maxthink.cn/wx',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-10-18T18:00:25+08:00] 115.171.245.154 GET maxthink.cn/wx/js/app.431a8c42.js
+[运行时间：0.040526s] [吞吐率：24.68req/s] [内存消耗：2,203.38kb] [文件加载：133]
+[ info ] [ LANG ] /data/www/jinli/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://maxthink.cn/wx',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)

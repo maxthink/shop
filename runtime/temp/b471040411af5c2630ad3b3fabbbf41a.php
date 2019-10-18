@@ -1,3 +1,4 @@
+<?php /*a:1:{s:54:"/data/www/jinli/application/index/view/index_index.php";i:1571387520;}*/ ?>
 <!DOCTYPE html>
 <html lang=en>
 <head>
