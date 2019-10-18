@@ -1,0 +1,503 @@
+---------------------------------------------------------------
+[2019-05-19T00:41:18+08:00] 51.38.12.21 GET 39.96.87.22/
+[运行时间：0.016780s] [吞吐率：59.59req/s] [内存消耗：1,981.73kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'connection' => 'close',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T01:48:10+08:00] 212.154.84.6 GET 39.96.87.22:80/
+[运行时间：0.017102s] [吞吐率：58.47req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T01:52:40+08:00] 162.243.147.15 GET 39.96.87.22/
+[运行时间：0.016828s] [吞吐率：59.42req/s] [内存消耗：1,981.55kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T02:08:55+08:00] 189.79.25.223 GET 39.96.87.22:80/
+[运行时间：0.016534s] [吞吐率：60.48req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T02:33:53+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.015028s] [吞吐率：66.54req/s] [内存消耗：1,729.27kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-19T03:54:12+08:00] 47.97.204.168 GET csgxjk.com/
+[运行时间：0.016514s] [吞吐率：60.56req/s] [内存消耗：1,981.92kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T03:59:14+08:00] 187.57.40.240 GET 39.96.87.22:80/
+[运行时间：0.016564s] [吞吐率：60.37req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T04:05:21+08:00] 106.15.191.180 GET www.csgxjk.com/
+[运行时间：0.016557s] [吞吐率：60.40req/s] [内存消耗：1,981.95kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T05:16:44+08:00] 177.102.250.168 GET 39.96.87.22:80/
+[运行时间：0.016772s] [吞吐率：59.62req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T05:43:01+08:00] 46.98.200.93 GET 39.96.87.22:80/
+[运行时间：0.016669s] [吞吐率：59.99req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T05:49:33+08:00] 5.202.41.201 GET 39.96.87.22:80/
+[运行时间：0.015710s] [吞吐率：63.65req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T06:15:43+08:00] 181.211.252.206 GET 39.96.87.22:80/
+[运行时间：0.016322s] [吞吐率：61.27req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T06:35:27+08:00] 95.213.177.124 POST check.proxyradar.com/azenv.php?auth=155821892793&a=PSCN&i=660625174&p=80
+[运行时间：0.014305s] [吞吐率：69.91req/s] [内存消耗：1,729.17kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-19T06:44:27+08:00] 103.231.216.34 GET 39.96.87.22:80/
+[运行时间：0.016713s] [吞吐率：59.83req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T06:44:44+08:00] 110.78.141.214 GET 39.96.87.22:80/
+[运行时间：0.016380s] [吞吐率：61.05req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T07:17:10+08:00] 202.72.220.50 GET 39.96.87.22:80/
+[运行时间：0.016517s] [吞吐率：60.54req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T09:08:18+08:00] 3.84.176.37 GET 39.96.87.22/
+[运行时间：0.016142s] [吞吐率：61.95req/s] [内存消耗：1,982.00kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/56.0.3057.105 Safari/537.32',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T09:56:59+08:00] 45.235.8.127 GET 39.96.87.22:80/
+[运行时间：0.016301s] [吞吐率：61.35req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T10:03:30+08:00] 116.62.215.53 GET www.csgxjk.com/
+[运行时间：0.016862s] [吞吐率：59.31req/s] [内存消耗：1,981.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T10:36:29+08:00] 120.25.208.128 GET www.csgxjk.com/
+[运行时间：0.017733s] [吞吐率：56.39req/s] [内存消耗：1,981.95kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T10:49:03+08:00] 89.108.103.75 GET csgxjk.com/
+[运行时间：0.016468s] [吞吐率：60.72req/s] [内存消耗：1,981.22kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T10:53:46+08:00] 66.249.73.85 GET csgxjk.com/
+[运行时间：0.016721s] [吞吐率：59.81req/s] [内存消耗：1,982.24kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T10:56:24+08:00] 47.101.190.36 GET 39.96.87.22/
+[运行时间：0.016696s] [吞吐率：59.89req/s] [内存消耗：1,981.96kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T10:58:23+08:00] 47.92.4.72 GET 39.96.87.22/
+[运行时间：0.016062s] [吞吐率：62.26req/s] [内存消耗：1,981.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T11:02:56+08:00] 95.234.124.160 GET 39.96.87.22:80/
+[运行时间：0.016455s] [吞吐率：60.77req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T12:45:16+08:00] 87.107.59.133 GET 39.96.87.22:80/
+[运行时间：0.016097s] [吞吐率：62.12req/s] [内存消耗：1,981.78kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T13:49:52+08:00] 108.178.61.58 GET 39.96.87.22/
+[运行时间：0.016634s] [吞吐率：60.12req/s] [内存消耗：1,981.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T14:35:02+08:00] 95.213.177.123 POST check.proxyradar.com/azenv.php?auth=155824770279&a=PSCN&i=660625174&p=80
+[运行时间：0.014338s] [吞吐率：69.75req/s] [内存消耗：1,729.17kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-19T15:49:01+08:00] 47.100.53.146 GET csgxjk.com/
+[运行时间：0.016311s] [吞吐率：61.31req/s] [内存消耗：1,981.73kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T16:07:33+08:00] 47.92.39.202 GET www.csgxjk.com/
+[运行时间：0.016531s] [吞吐率：60.49req/s] [内存消耗：1,981.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T17:32:33+08:00] 101.132.156.172 GET www.CSGXJK.com/
+[运行时间：0.015748s] [吞吐率：63.50req/s] [内存消耗：1,981.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.CSGXJK.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T17:35:30+08:00] 66.249.73.156 GET www.csgxjk.com/
+[运行时间：0.016121s] [吞吐率：62.03req/s] [内存消耗：1,983.51kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'amp-cache-transform' => 'google;v="1"',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T17:39:31+08:00] 101.132.97.6 GET 39.96.87.22/
+[运行时间：0.016654s] [吞吐率：60.05req/s] [内存消耗：1,981.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T20:29:29+08:00] 139.162.88.63 GET clientapi.ipip.net/echo.php?info=1234567890
+[运行时间：0.014501s] [吞吐率：68.96req/s] [内存消耗：1,729.57kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-19T22:50:08+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.015149s] [吞吐率：66.01req/s] [内存消耗：1,729.27kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-19T23:00:30+08:00] 122.237.74.50 GET 39.96.87.22/index.php
+[运行时间：0.016502s] [吞吐率：60.60req/s] [内存消耗：1,982.33kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0',
+  'content-type' => 'text/html',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'x-forwarded-for' => '122.237.74.50',
+  'client-ip' => '122.237.74.50',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-19T23:00:30+08:00] 122.237.74.50 GET 39.96.87.22/phpmyadmin/index.php
+[运行时间：0.015433s] [吞吐率：64.80req/s] [内存消耗：1,729.38kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-19T23:21:06+08:00] 95.213.177.123 POST check.proxyradar.com/azenv.php?auth=155827926411&a=PSCN&i=660625174&p=80
+[运行时间：0.015106s] [吞吐率：66.20req/s] [内存消耗：1,729.17kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php

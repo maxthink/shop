@@ -1,0 +1,3560 @@
+---------------------------------------------------------------
+[2019-07-30T21:51:17+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.031987s] [吞吐率：31.26req/s] [内存消耗：3,765.20kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[2019-07-30T21:51:27+08:00] 39.96.87.22 POST csgxjk.com/api/device/100/work
+[运行时间：0.035904s] [吞吐率：27.85req/s] [内存消耗：3,261.80kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/device/100/work',
+  'route' => 'api/api100/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/4.0',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1',
+  'secret' => 'csgx@xt@eUmkdL#2H',
+  'timestamp' => '1564494687',
+  'drid' => '2015',
+  'devid' => '22',
+  'command' => 'start',
+  'long' => '900',
+  'sign' => 'e4462843f234afc25acb46f37a18cb2a',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record_api` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] INSERT INTO `record_api` (`appid` , `devid` , `start_time` , `long`) VALUES (1 , 22 , 1564494687 , 900) [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[2019-07-30T21:51:27+08:00] 140.207.54.75 POST csgxjk.com/wx/device/wxpaynotice.html
+[运行时间：0.108423s] [吞吐率：9.22req/s] [内存消耗：4,389.09kb] [文件加载：152]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'csgxjk.com',
+  'content-length' => '772',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT * FROM `h_bill` WHERE  `code` = '201907302151074967' LIMIT 1 [ RunTime:0.000960s ]
+[ sql ] [ SQL ] UPDATE `h_bill`  SET `status` = 1 , `paytime` = 1564494687  WHERE  `id` = 1150 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] INSERT INTO `h_device_record` (`user_id` , `bill_id` , `dev_id` , `long` , `source` , `createtime` , `code`) VALUES (23 , 1150 , 22 , 900 , 1 , 1564494687 , '20190730215127469') [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `user_id` = 23 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[2019-07-30T21:51:32+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.032404s] [吞吐率：30.86req/s] [内存消耗：3,765.25kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[2019-07-30T21:51:38+08:00] 61.151.178.175 GET csgxjk.com/wx/device1/work/22
+[运行时间：0.028072s] [吞吐率：35.62req/s] [内存消耗：3,295.64kb] [文件加载：147]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '22',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad Y82-520 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+)
+[ error ] [2]Cannot modify header information - headers already sent by (output started at /data/www/csgx2/vendor/symfony/http-foundation/Response.php:379)[/data/www/csgx2/application/wx/controller/Device1.php:27]
+---------------------------------------------------------------
+[2019-07-30T21:51:47+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.032916s] [吞吐率：30.38req/s] [内存消耗：3,765.25kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-07-30T21:52:03+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.032720s] [吞吐率：30.56req/s] [内存消耗：3,765.25kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[2019-07-30T21:52:03+08:00] 117.136.72.8 POST csgxjk.com/wx/device1/bill
+[运行时间：0.032854s] [吞吐率：30.44req/s] [内存消耗：3,789.35kb] [文件加载：135]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '4',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://csgxjk.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[2019-07-30T21:53:36+08:00] 223.166.222.102 POST csgxjk.com/wx/msg?signature=64db23a87fd072fe5d5ac40bb168b35bb52a7e48&timestamp=1564494816&nonce=1687483152&openid=o6sbr5vEc61YzyMHqWqiQL3uy3h4&encrypt_type=aes&msg_signature=5f095346c15581c0a08d1300a4a6e910e69fadd4
+[运行时间：0.030497s] [吞吐率：32.79req/s] [内存消耗：3,526.95kb] [文件加载：165]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'content-length' => '768',
+  'pragma' => 'no-cache',
+  'host' => 'csgxjk.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '64db23a87fd072fe5d5ac40bb168b35bb52a7e48',
+  'timestamp' => '1564494816',
+  'nonce' => '1687483152',
+  'openid' => 'o6sbr5vEc61YzyMHqWqiQL3uy3h4',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '5f095346c15581c0a08d1300a4a6e910e69fadd4',
+  '<xml>
+____<ToUserName><!' => 
+  array (
+    'CDATA[gh_0d3009238407' => ']]></Encrypt>
+</xml>
+',
+  ),
+)
+---------------------------------------------------------------
+[2019-07-30T21:54:33+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/work/68
+[运行时间：0.027242s] [吞吐率：36.71req/s] [内存消耗：3,303.22kb] [文件加载：147]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '68',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Y75A Build/N6F26Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/3420 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '68',
+)
+[ error ] [2]Cannot modify header information - headers already sent by (output started at /data/www/csgx2/vendor/symfony/http-foundation/Response.php:379)[/data/www/csgx2/application/wx/controller/Device1.php:27]
+---------------------------------------------------------------
+[2019-07-30T21:54:47+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/work/68
+[运行时间：0.027898s] [吞吐率：35.84req/s] [内存消耗：3,303.22kb] [文件加载：147]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '68',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '68',
+)
+[ error ] [2]Cannot modify header information - headers already sent by (output started at /data/www/csgx2/vendor/symfony/http-foundation/Response.php:379)[/data/www/csgx2/application/wx/controller/Device1.php:27]
+---------------------------------------------------------------
+[2019-07-30T21:54:49+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/work/68?code=0216oHgW1JKdOX0tTQeW1RwPgW16oHgm&state=984b74440ddfdaf155885cd565273b41
+[运行时间：0.445385s] [吞吐率：2.25req/s] [内存消耗：4,924.46kb] [文件加载：184]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '68',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0216oHgW1JKdOX0tTQeW1RwPgW16oHgm',
+  'state' => '984b74440ddfdaf155885cd565273b41',
+  'id' => '68',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_user` WHERE  `thr_id` = 'o6sbr5vEc61YzyMHqWqiQL3uy3h4' LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] INSERT INTO `h_user` (`usertype` , `thr_id` , `nickname` , `sex` , `avatar` , `country` , `province` , `city` , `createtime`) VALUES (1 , 'o6sbr5vEc61YzyMHqWqiQL3uy3h4' , '丫头' , 2 , 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLGN4iahcwOsVUsVgFbl1gdJDXNick5Xc0tdZ6Z7dPmkeW9cDwVrczH784uThTQ40uk198rKljicicOoA/132' , '中国' , '山东' , '滨州' , 1564494889) [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[2019-07-30T21:54:51+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.055556s] [吞吐率：18.00req/s] [内存消耗：3,766.13kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000594s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.012299s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[2019-07-30T21:54:51+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/no
+[运行时间：0.067643s] [吞吐率：14.78req/s] [内存消耗：3,787.49kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[2019-07-30T21:54:51+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/meal
+[运行时间：0.054960s] [吞吐率：18.20req/s] [内存消耗：3,865.45kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001299s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[2019-07-30T21:55:06+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032314s] [吞吐率：30.95req/s] [内存消耗：3,766.13kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[2019-07-30T21:55:15+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032401s] [吞吐率：30.86req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[2019-07-30T21:55:20+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/list?page=1
+[运行时间：0.034091s] [吞吐率：29.33req/s] [内存消耗：3,825.62kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS id,`code`,`bill_id`,`source`,`long`,`createtime`,`status`,`usetime` FROM `h_device_record` WHERE  `user_id` = 559 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[2019-07-30T21:55:21+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032852s] [吞吐率：30.44req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[2019-07-30T21:55:36+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031345s] [吞吐率：31.90req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[2019-07-30T21:55:51+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032343s] [吞吐率：30.92req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:06+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.038294s] [吞吐率：26.11req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.006998s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:22+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032790s] [吞吐率：30.50req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:37+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032356s] [吞吐率：30.91req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:42+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/meal
+[运行时间：0.033869s] [吞吐率：29.53req/s] [内存消耗：3,865.45kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:48+08:00] 144.255.227.254 GET csgxjk.com/wx/coupon/quan
+[运行时间：0.020276s] [吞吐率：49.32req/s] [内存消耗：2,298.15kb] [文件加载：123]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-30T21:56:48+08:00] 144.255.227.254 GET csgxjk.com/wx/coupon/list
+[运行时间：0.030529s] [吞吐率：32.76req/s] [内存消耗：3,704.02kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/ticket',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] select c.*,cr.uid from h_coupon as c left join h_coupon_record as cr on cr.qid = c.id and uid=559 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:52+08:00] 144.255.227.254 POST csgxjk.com/wx/coupon/free
+[运行时间：0.047904s] [吞吐率：20.88req/s] [内存消耗：3,710.39kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/ticket',
+  'origin' => 'http://csgxjk.com',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '4',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_coupon_record` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT * FROM `h_coupon_record` WHERE  `uid` = 559  AND `qid` = 1 LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_coupon` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `h_coupon` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] INSERT INTO `h_device_record` (`user_id` , `bill_id` , `dev_id` , `long` , `source` , `createtime` , `code`) VALUES (559 , 1 , 0 , 900 , 0 , 1564495012 , '20190730215652493') [ RunTime:0.000328s ]
+[ sql ] [ SQL ] INSERT INTO `h_coupon_record` (`uid` , `qid` , `createtime`) VALUES (559 , 1 , 1564495012) [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[2019-07-30T21:56:56+08:00] 144.255.227.254 POST csgxjk.com/wx/coupon/free
+[运行时间：0.045174s] [吞吐率：22.14req/s] [内存消耗：3,710.39kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/ticket',
+  'origin' => 'http://csgxjk.com',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '4',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_coupon_record` [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `h_coupon_record` WHERE  `uid` = 559  AND `qid` = 3 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_coupon` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT * FROM `h_coupon` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] INSERT INTO `h_device_record` (`user_id` , `bill_id` , `dev_id` , `long` , `source` , `createtime` , `code`) VALUES (559 , 3 , 0 , 900 , 0 , 1564495016 , '20190730215656845') [ RunTime:0.000348s ]
+[ sql ] [ SQL ] INSERT INTO `h_coupon_record` (`uid` , `qid` , `createtime`) VALUES (559 , 3 , 1564495016) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:06+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/work/68
+[运行时间：0.020060s] [吞吐率：49.85req/s] [内存消耗：2,328.08kb] [文件加载：122]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '68',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '68',
+)
+---------------------------------------------------------------
+[2019-07-30T21:57:07+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.067107s] [吞吐率：14.90req/s] [内存消耗：3,766.13kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.009337s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:07+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/no
+[运行时间：0.070680s] [吞吐率：14.15req/s] [内存消耗：3,787.49kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001075s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.002165s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:07+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/meal
+[运行时间：0.048677s] [吞吐率：20.54req/s] [内存消耗：3,865.45kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001873s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:15+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/list?page=1
+[运行时间：0.034512s] [吞吐率：28.98req/s] [内存消耗：3,825.62kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS id,`code`,`bill_id`,`source`,`long`,`createtime`,`status`,`usetime` FROM `h_device_record` WHERE  `user_id` = 559 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:22+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032495s] [吞吐率：30.77req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:22+08:00] 39.96.87.22 POST csgxjk.com/api/device/100/work
+[运行时间：0.033711s] [吞吐率：29.66req/s] [内存消耗：3,262.62kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/device/100/work',
+  'route' => 'api/api100/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1',
+  'secret' => 'csgx@xt@eUmkdL#2H',
+  'timestamp' => '1564495042',
+  'drid' => '2017',
+  'devid' => '68',
+  'command' => 'start',
+  'long' => '900',
+  'sign' => 'a12eece2710e8860c5a258b702790124',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record_api` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] INSERT INTO `record_api` (`appid` , `devid` , `start_time` , `long`) VALUES (1 , 68 , 1564495042 , 900) [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:22+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/run
+[运行时间：0.128826s] [吞吐率：7.76req/s] [内存消耗：3,771.28kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '14',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2017',
+  'did' => '26',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2017 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:23+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/drstatus
+[运行时间：0.031783s] [吞吐率：31.46req/s] [内存消耗：3,791.16kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '7',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2017',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2017 LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:24+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/drstatus
+[运行时间：0.031760s] [吞吐率：31.49req/s] [内存消耗：3,791.16kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '7',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2017',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2017 LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:28+08:00] 39.96.87.22 POST csgxjk.com/api/device/100/work
+[运行时间：0.027028s] [吞吐率：37.00req/s] [内存消耗：3,285.55kb] [文件加载：88]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/device/100/work',
+  'route' => 'api/api100/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1',
+  'secret' => 'csgx@xt@eUmkdL#2H',
+  'timestamp' => '1564495048',
+  'drid' => '2016',
+  'devid' => '68',
+  'command' => 'start',
+  'long' => '900',
+  'sign' => '093c7af2af1af543803535702840a7ed',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:28+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/run
+[运行时间：0.066217s] [吞吐率：15.10req/s] [内存消耗：3,771.28kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '14',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2016',
+  'did' => '26',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001438s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2016 LIMIT 1 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:37+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031605s] [吞吐率：31.64req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[2019-07-30T21:57:52+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032226s] [吞吐率：31.03req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[2019-07-30T21:58:07+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031754s] [吞吐率：31.49req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[2019-07-30T21:58:22+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031978s] [吞吐率：31.27req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[2019-07-30T21:58:37+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031978s] [吞吐率：31.27req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T21:58:52+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031871s] [吞吐率：31.38req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[2019-07-30T21:59:07+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032178s] [吞吐率：31.08req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[2019-07-30T21:59:23+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032317s] [吞吐率：30.94req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[2019-07-30T21:59:38+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032808s] [吞吐率：30.48req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[2019-07-30T21:59:53+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.033095s] [吞吐率：30.22req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[2019-07-30T22:00:08+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.034790s] [吞吐率：28.74req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001155s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[2019-07-30T22:00:23+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031521s] [吞吐率：31.72req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[2019-07-30T22:00:38+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.033039s] [吞吐率：30.27req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[2019-07-30T22:00:53+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031715s] [吞吐率：31.53req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[2019-07-30T22:01:08+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.031886s] [吞吐率：31.36req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[2019-07-30T22:01:23+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032880s] [吞吐率：30.41req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[2019-07-30T22:01:39+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032693s] [吞吐率：30.59req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[2019-07-30T22:01:54+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032552s] [吞吐率：30.72req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[2019-07-30T22:02:09+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.033114s] [吞吐率：30.20req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[2019-07-30T22:02:24+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032906s] [吞吐率：30.39req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[2019-07-30T22:02:39+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032554s] [吞吐率：30.72req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[2019-07-30T22:02:54+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032629s] [吞吐率：30.65req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[2019-07-30T22:03:06+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/meal
+[运行时间：0.033825s] [吞吐率：29.56req/s] [内存消耗：3,865.45kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[2019-07-30T22:06:02+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032820s] [吞吐率：30.47req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:21+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/work/22
+[运行时间：0.021171s] [吞吐率：47.23req/s] [内存消耗：2,327.21kb] [文件加载：122]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '22',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+)
+---------------------------------------------------------------
+[2019-07-30T22:08:21+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/no
+[运行时间：0.032134s] [吞吐率：31.12req/s] [内存消耗：3,786.61kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:21+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.045982s] [吞吐率：21.75req/s] [内存消耗：3,765.25kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001904s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:21+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/meal
+[运行时间：0.045494s] [吞吐率：21.98req/s] [内存消耗：3,864.57kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:24+08:00] 42.236.10.93 GET csgxjk.com/wx/device/work/48
+[运行时间：0.042924s] [吞吐率：23.30req/s] [内存消耗：4,534.58kb] [文件加载：161]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device/work/<id>',
+  'route' => 'wx/device/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '48',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '48',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wx/view/device_work.php [ array (
+  0 => 'dev',
+  1 => 'setmeal',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 48 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:24+08:00] 117.136.72.8 POST csgxjk.com/wx/device1/bill
+[运行时间：0.268351s] [吞吐率：3.73req/s] [内存消耗：4,889.75kb] [文件加载：188]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '4',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://csgxjk.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001118s ]
+[ sql ] [ SQL ] INSERT INTO `h_bill` (`code` , `user_id` , `price` , `meal_id` , `dev_id` , `owner_uid` , `createtime`) VALUES ('201907302208242624' , 23 , 6800 , 1 , 22 , 23 , 1564495704) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:36+08:00] 39.96.87.22 POST csgxjk.com/api/device/100/work
+[运行时间：0.034436s] [吞吐率：29.04req/s] [内存消耗：3,261.80kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/device/100/work',
+  'route' => 'api/api100/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/4.0',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1',
+  'secret' => 'csgx@xt@eUmkdL#2H',
+  'timestamp' => '1564495716',
+  'drid' => '2018',
+  'devid' => '22',
+  'command' => 'start',
+  'long' => '900',
+  'sign' => '71a9e60cf411aea916e71e8a4ee2f606',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record_api` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] INSERT INTO `record_api` (`appid` , `devid` , `start_time` , `long`) VALUES (1 , 22 , 1564495716 , 900) [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:36+08:00] 140.207.54.78 POST csgxjk.com/wx/device/wxpaynotice.html
+[运行时间：0.156072s] [吞吐率：6.41req/s] [内存消耗：4,389.09kb] [文件加载：152]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'csgxjk.com',
+  'content-length' => '772',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `h_bill` WHERE  `code` = '201907302208242624' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] UPDATE `h_bill`  SET `status` = 1 , `paytime` = 1564495716  WHERE  `id` = 1151 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001856s ]
+[ sql ] [ SQL ] INSERT INTO `h_device_record` (`user_id` , `bill_id` , `dev_id` , `long` , `source` , `createtime` , `code`) VALUES (23 , 1151 , 22 , 900 , 1 , 1564495716 , '20190730220836233') [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `user_id` = 23 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[2019-07-30T22:08:37+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.033023s] [吞吐率：30.28req/s] [内存消耗：3,765.25kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-07-30T22:10:18+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032415s] [吞吐率：30.85req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:25+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031765s] [吞吐率：31.48req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:34+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/work/68
+[运行时间：0.020784s] [吞吐率：48.11req/s] [内存消耗：2,328.08kb] [文件加载：122]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '68',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '144.255.227.254',
+  'x-forwarded-for' => '144.255.227.254',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '68',
+)
+---------------------------------------------------------------
+[2019-07-30T22:15:35+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/no
+[运行时间：0.031341s] [吞吐率：31.91req/s] [内存消耗：3,787.16kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:35+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.041289s] [吞吐率：24.22req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001846s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:35+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/meal
+[运行时间：0.041659s] [吞吐率：24.00req/s] [内存消耗：3,865.12kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:40+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/list?page=1
+[运行时间：0.034340s] [吞吐率：29.12req/s] [内存消耗：3,825.62kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS id,`code`,`bill_id`,`source`,`long`,`createtime`,`status`,`usetime` FROM `h_device_record` WHERE  `user_id` = 559 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.001350s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:48+08:00] 39.96.87.22 POST csgxjk.com/api/device/100/work
+[运行时间：0.035311s] [吞吐率：28.32req/s] [内存消耗：3,262.62kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/device/100/work',
+  'route' => 'api/api100/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1',
+  'secret' => 'csgx@xt@eUmkdL#2H',
+  'timestamp' => '1564496147',
+  'drid' => '2016',
+  'devid' => '68',
+  'command' => 'start',
+  'long' => '900',
+  'sign' => '5ea39b35fd2206f7fd129164b8b42fcd',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record_api` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] INSERT INTO `record_api` (`appid` , `devid` , `start_time` , `long`) VALUES (1 , 68 , 1564496148 , 900) [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:48+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/run
+[运行时间：0.083030s] [吞吐率：12.04req/s] [内存消耗：3,771.28kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '14',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2016',
+  'did' => '26',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2016 LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:49+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/drstatus
+[运行时间：0.031382s] [吞吐率：31.87req/s] [内存消耗：3,791.16kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '7',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2016',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2016 LIMIT 1 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:50+08:00] 144.255.227.254 POST csgxjk.com/wx/device1/drstatus
+[运行时间：0.031800s] [吞吐率：31.45req/s] [内存消耗：3,791.16kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '7',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2016',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `id` = 2016 LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[2019-07-30T22:15:50+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032101s] [吞吐率：31.15req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[2019-07-30T22:16:05+08:00] 144.255.227.254 GET csgxjk.com/wx/device1/status
+[运行时间：0.032295s] [吞吐率：30.96req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=qjht25rbol0k0heshpv547ihv1',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/record/68',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/6989 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/WIFI Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[2019-07-30T22:16:32+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032312s] [吞吐率：30.95req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[2019-07-30T22:24:57+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/work/22
+[运行时间：0.020547s] [吞吐率：48.67req/s] [内存消耗：2,327.21kb] [文件加载：122]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx/device1/work/<id>',
+  'route' => 'wx/device1/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '22',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+)
+---------------------------------------------------------------
+[2019-07-30T22:24:58+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/no
+[运行时间：0.031598s] [吞吐率：31.65req/s] [内存消耗：3,786.61kb] [文件加载：134]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[2019-07-30T22:24:58+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/status
+[运行时间：0.031222s] [吞吐率：32.03req/s] [内存消耗：3,765.25kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T22:24:58+08:00] 117.136.72.8 GET csgxjk.com/wx/device1/meal
+[运行时间：0.033485s] [吞吐率：29.86req/s] [内存消耗：3,864.57kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[2019-07-30T22:25:01+08:00] 117.136.72.8 POST csgxjk.com/wx/device1/bill
+[运行时间：0.316136s] [吞吐率：3.16req/s] [内存消耗：4,889.75kb] [文件加载：188]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '4',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/22',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.5(0x17000523) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'cookie' => 'ASPSESSIONID=mkue4tk8kc03s9oku4ki3tf4nm',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://csgxjk.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] INSERT INTO `h_bill` (`code` , `user_id` , `price` , `meal_id` , `dev_id` , `owner_uid` , `createtime`) VALUES ('201907302225014387' , 23 , 6800 , 1 , 22 , 23 , 1564496701) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[2019-07-30T22:25:18+08:00] 39.96.87.22 POST csgxjk.com/api/device/100/work
+[运行时间：0.034302s] [吞吐率：29.15req/s] [内存消耗：3,261.80kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/device/100/work',
+  'route' => 'api/api100/work',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/4.0',
+)
+[ info ] [ PARAM ] array (
+  'appid' => '1',
+  'secret' => 'csgx@xt@eUmkdL#2H',
+  'timestamp' => '1564496718',
+  'drid' => '2019',
+  'devid' => '22',
+  'command' => 'start',
+  'long' => '900',
+  'sign' => 'b7c3ecdf09e41b5720429fc6b2ec3278',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record_api` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] INSERT INTO `record_api` (`appid` , `devid` , `start_time` , `long`) VALUES (1 , 22 , 1564496718 , 900) [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[2019-07-30T22:25:18+08:00] 140.207.54.75 POST csgxjk.com/wx/device/wxpaynotice.html
+[运行时间：0.095363s] [吞吐率：10.49req/s] [内存消耗：4,389.09kb] [文件加载：152]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'csgxjk.com',
+  'content-length' => '772',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT * FROM `h_bill` WHERE  `code` = '201907302225014387' LIMIT 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] UPDATE `h_bill`  SET `status` = 1 , `paytime` = 1564496718  WHERE  `id` = 1152 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001717s ]
+[ sql ] [ SQL ] INSERT INTO `h_device_record` (`user_id` , `bill_id` , `dev_id` , `long` , `source` , `createtime` , `code`) VALUES (23 , 1152 , 22 , 900 , 1 , 1564496718 , '20190730222518778') [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `h_device_record` WHERE  `user_id` = 23 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[2019-07-30T22:27:00+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032294s] [吞吐率：30.97req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[2019-07-30T22:38:57+08:00] 115.35.136.5 POST csgxjk.com/wx/device/status.html
+[运行时间：0.032022s] [吞吐率：31.23req/s] [内存消耗：3,760.23kb] [文件加载：137]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ASPSESSIONID=mbkgabqrch59je7at74kh9r9og',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wx/device/record/48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; HMA-AL00 Build/HUAWEIHMA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.64 HuaweiBrowser/9.1.2.315 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://csgxjk.com',
+  'accept' => '*/*',
+  'content-length' => '8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'devid' => '48',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 48 LIMIT 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[2019-07-30T22:39:07+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.033303s] [吞吐率：30.03req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.002371s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[2019-07-30T22:47:17+08:00] 43.250.200.96 GET csgxjk.com/wx/bill/
+[运行时间：0.020619s] [吞吐率：48.50req/s] [内存消耗：2,355.20kb] [文件加载：126]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '43.250.200.96',
+  'x-forwarded-for' => '43.250.200.96',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/7430 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/4G Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=f35e5rk13hn0a6500q45qj6upn',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/wx/view/bill_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-30T22:47:18+08:00] 43.250.200.96 POST csgxjk.com/wx/bill/list.html
+[运行时间：0.031943s] [吞吐率：31.31req/s] [内存消耗：3,754.54kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'x-forwarded-for-pound' => '43.250.200.96',
+  'x-forwarded-for' => '43.250.200.96',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/7430 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/4G Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wx/bill/',
+  'origin' => 'http://csgxjk.com',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=f35e5rk13hn0a6500q45qj6upn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '6',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT * FROM `h_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] select b.user_id, b.price, b.dev_id, b.meal_id, b.`status`, from_unixtime(b.createtime) createtime, u.nickname from h_bill b left join h_user u on b.user_id=u.id where b.owner_uid=34 order by b.id desc  limit 0,15 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[2019-07-30T22:48:11+08:00] 43.250.200.96 POST csgxjk.com/wx/bill/list.html
+[运行时间：0.032419s] [吞吐率：30.85req/s] [内存消耗：3,752.13kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'x-forwarded-for-pound' => '43.250.200.96',
+  'x-forwarded-for' => '43.250.200.96',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/7430 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/4G Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wx/bill/',
+  'origin' => 'http://csgxjk.com',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=f35e5rk13hn0a6500q45qj6upn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '6',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `h_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] select b.user_id, b.price, b.dev_id, b.meal_id, b.`status`, from_unixtime(b.createtime) createtime, u.nickname from h_bill b left join h_user u on b.user_id=u.id where b.owner_uid=34 order by b.id desc  limit 15,15 [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[2019-07-30T22:48:12+08:00] 43.250.200.96 POST csgxjk.com/wx/bill/list.html
+[运行时间：0.032099s] [吞吐率：31.15req/s] [内存消耗：3,752.13kb] [文件加载：138]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'x-forwarded-for-pound' => '43.250.200.96',
+  'x-forwarded-for' => '43.250.200.96',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 MMWEBID/7430 MicroMessenger/7.0.6.1460(0x27000634) Process/tools NetType/4G Language/zh_CN',
+  'referer' => 'http://csgxjk.com/wx/bill/',
+  'origin' => 'http://csgxjk.com',
+  'host' => 'csgxjk.com',
+  'cookie' => 'ASPSESSIONID=f35e5rk13hn0a6500q45qj6upn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '6',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT * FROM `h_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] select b.user_id, b.price, b.dev_id, b.meal_id, b.`status`, from_unixtime(b.createtime) createtime, u.nickname from h_bill b left join h_user u on b.user_id=u.id where b.owner_uid=34 order by b.id desc  limit 15,15 [ RunTime:0.000928s ]
+---------------------------------------------------------------
+[2019-07-30T22:52:05+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031367s] [吞吐率：31.88req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[2019-07-30T22:56:07+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031227s] [吞吐率：32.02req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[2019-07-30T23:04:24+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031149s] [吞吐率：32.10req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[2019-07-30T23:04:43+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031725s] [吞吐率：31.52req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[2019-07-30T23:04:59+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031500s] [吞吐率：31.75req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[2019-07-30T23:05:18+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031289s] [吞吐率：31.96req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[2019-07-30T23:05:35+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032414s] [吞吐率：30.85req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[2019-07-30T23:05:51+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031865s] [吞吐率：31.38req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[2019-07-30T23:06:07+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031920s] [吞吐率：31.33req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[2019-07-30T23:06:23+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031795s] [吞吐率：31.45req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-07-30T23:06:39+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031683s] [吞吐率：31.56req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[2019-07-30T23:06:55+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031634s] [吞吐率：31.61req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-07-30T23:07:11+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031316s] [吞吐率：31.93req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[2019-07-30T23:07:27+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031155s] [吞吐率：32.10req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[2019-07-30T23:07:43+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032129s] [吞吐率：31.12req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T23:07:59+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031581s] [吞吐率：31.66req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-07-30T23:08:15+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032576s] [吞吐率：30.70req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[2019-07-30T23:08:31+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031557s] [吞吐率：31.69req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[2019-07-30T23:08:47+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031837s] [吞吐率：31.41req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[2019-07-30T23:09:03+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031874s] [吞吐率：31.37req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[2019-07-30T23:09:19+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.030991s] [吞吐率：32.27req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[2019-07-30T23:09:35+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031330s] [吞吐率：31.92req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[2019-07-30T23:09:51+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.031776s] [吞吐率：31.47req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[2019-07-30T23:10:07+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032338s] [吞吐率：30.92req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[2019-07-30T23:10:23+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032074s] [吞吐率：31.18req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[2019-07-30T23:10:39+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032304s] [吞吐率：30.96req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[2019-07-30T23:10:55+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032633s] [吞吐率：30.64req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[2019-07-30T23:11:11+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032058s] [吞吐率：31.19req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[2019-07-30T23:11:27+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032458s] [吞吐率：30.81req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[2019-07-30T23:11:42+08:00] 112.17.247.118 GET csgxjk.com/wx/device1/status
+[运行时间：0.032851s] [吞吐率：30.44req/s] [内存消耗：3,765.80kb] [文件加载：136]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'cookie' => 'ASPSESSIONID=34u907jm3g7g77pc1f26qe9tl6',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxs/index/sellpack/49',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; BND-AL00 Build/HONORBND-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044705 Mobile Safari/537.36 MMWEBID/9564 MicroMessenger/7.0.4.1420(0x2700043C) Process/tools NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000403s ]

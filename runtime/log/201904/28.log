@@ -1,0 +1,3239 @@
+---------------------------------------------------------------
+[2019-04-28T00:53:35+08:00] 185.254.122.34 GET 39.96.87.22/
+[运行时间：0.016821s] [吞吐率：59.45req/s] [内存消耗：1,975.13kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T01:02:57+08:00] 95.213.177.126 POST check.proxyradar.com/azenv.php?auth=155638457709&a=PSCN&i=660625174&p=80
+[运行时间：0.015039s] [吞吐率：66.49req/s] [内存消耗：1,722.02kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T01:22:55+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.014949s] [吞吐率：66.89req/s] [内存消耗：1,722.85kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T02:45:53+08:00] 139.159.214.3 GET 39.96.87.22/yu.php
+[运行时间：0.014162s] [吞吐率：70.61req/s] [内存消耗：1,722.88kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T02:46:24+08:00] 139.159.214.3 GET 39.96.87.22/phpMyadmi/index.php
+[运行时间：0.014646s] [吞吐率：68.28req/s] [内存消耗：1,722.89kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T03:40:51+08:00] 101.132.193.68 GET csgxjk.com/
+[运行时间：0.016532s] [吞吐率：60.49req/s] [内存消耗：1,975.51kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T03:50:53+08:00] 47.100.51.203 GET www.csgxjk.com/
+[运行时间：0.016467s] [吞吐率：60.73req/s] [内存消耗：1,975.54kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T05:16:30+08:00] 152.254.195.29 GET 39.96.87.22:80/
+[运行时间：0.022267s] [吞吐率：44.91req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T05:16:30+08:00] 152.254.195.29 GET 39.96.87.22:80/
+[运行时间：0.021400s] [吞吐率：46.73req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T06:00:46+08:00] 170.84.147.118 GET 39.96.87.22:80/
+[运行时间：0.016117s] [吞吐率：62.05req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T07:01:44+08:00] 125.160.105.13 GET 39.96.87.22:80/
+[运行时间：0.015672s] [吞吐率：63.81req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T07:18:07+08:00] 175.42.43.113 GET www.csgxjk.com/
+[运行时间：0.016376s] [吞吐率：61.06req/s] [内存消耗：1,975.58kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,text/xml',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T07:47:37+08:00] 47.100.38.9 GET www.csgxjk.com/
+[运行时间：0.016380s] [吞吐率：61.05req/s] [内存消耗：1,975.35kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T07:55:27+08:00] 61.151.207.141 GET www.csgxjk.com/
+[运行时间：0.016389s] [吞吐率：61.02req/s] [内存消耗：1,975.58kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T07:56:07+08:00] 201.95.23.150 GET 39.96.87.22:80/
+[运行时间：0.016511s] [吞吐率：60.56req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T08:02:06+08:00] 47.92.101.189 GET 39.96.87.22/
+[运行时间：0.016289s] [吞吐率：61.39req/s] [内存消耗：1,975.36kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T08:26:12+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016486s] [吞吐率：60.66req/s] [内存消耗：1,975.98kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'ua-cpu' => 'AMD64',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E; Tablet PC 2.0; ms-office)',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T08:26:13+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016192s] [吞吐率：61.76req/s] [内存消耗：1,976.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6333328384',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T08:26:34+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016759s] [吞吐率：59.67req/s] [内存消耗：1,975.98kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'ua-cpu' => 'AMD64',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E; Tablet PC 2.0; ms-office)',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T08:26:35+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016658s] [吞吐率：60.03req/s] [内存消耗：1,976.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6333328384; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T08:26:45+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016343s] [吞吐率：61.19req/s] [内存消耗：1,976.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6333328384; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T09:13:40+08:00] 36.110.147.248 GET www.csgxjk.com/
+[运行时间：0.016436s] [吞吐率：60.84req/s] [内存消耗：1,975.55kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T09:20:24+08:00] 103.206.129.117 GET 39.96.87.22:80/
+[运行时间：0.016673s] [吞吐率：59.98req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T09:53:20+08:00] 95.213.177.125 POST check.proxyradar.com/azenv.php?auth=155641640035&a=PSCN&i=660625174&p=80
+[运行时间：0.014886s] [吞吐率：67.18req/s] [内存消耗：1,722.02kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T09:58:16+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016726s] [吞吐率：59.79req/s] [内存消耗：1,976.73kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=209710336.587103597237657900.1555472610074.9492; pgv_pvi=930153472',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T09:58:33+08:00] 42.236.10.117 GET csgxjk.com/
+[运行时间：0.016725s] [吞吐率：59.79req/s] [内存消耗：1,975.98kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:12:06+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016530s] [吞吐率：60.50req/s] [内存消耗：1,977.15kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=209710336.587103597237657900.1555472610074.9492; pgv_pvi=930153472; monitor_count=1; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:12:14+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016619s] [吞吐率：60.17req/s] [内存消耗：1,976.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:20:43+08:00] 106.15.176.145 GET 39.96.87.22/
+[运行时间：0.016508s] [吞吐率：60.58req/s] [内存消耗：1,975.55kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:28:08+08:00] 47.98.60.52 GET 39.96.87.22/index.php
+[运行时间：0.016542s] [吞吐率：60.45req/s] [内存消耗：1,975.55kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:28:15+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016700s] [吞吐率：59.88req/s] [内存消耗：1,976.77kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6333328384; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:30+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016382s] [吞吐率：61.04req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=1; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:31+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016348s] [吞吐率：61.17req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:32+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016711s] [吞吐率：59.84req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:33+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016875s] [吞吐率：59.26req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:34+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016243s] [吞吐率：61.57req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:34+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.015954s] [吞吐率：62.68req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:43+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016837s] [吞吐率：59.39req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:38:45+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.016803s] [吞吐率：59.51req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T10:51:20+08:00] 106.120.98.190 GET www.csgxjk.com/
+[运行时间：0.015680s] [吞吐率：63.78req/s] [内存消耗：1,977.18kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; thinkphp_show_page_trace=0|0; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T11:31:00+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.015166s] [吞吐率：65.94req/s] [内存消耗：1,722.85kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T11:45:53+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.039609s] [吞吐率：25.25req/s] [内存消耗：4,488.43kb] [文件加载：144]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[2019-04-28T11:48:13+08:00] 115.78.93.26 GET 39.96.87.22:80/
+[运行时间：0.016301s] [吞吐率：61.35req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T11:59:55+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016346s] [吞吐率：61.18req/s] [内存消耗：1,976.70kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T12:00:18+08:00] 106.120.98.190 GET csgxjk.com/wxapi/work
+[运行时间：0.018069s] [吞吐率：55.34req/s] [内存消耗：2,046.72kb] [文件加载：76]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T12:00:37+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.036217s] [吞吐率：27.61req/s] [内存消耗：4,351.91kb] [文件加载：142]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[2019-04-28T12:00:41+08:00] 2.187.34.80 GET 39.96.87.22:80/
+[运行时间：0.016387s] [吞吐率：61.02req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T12:00:48+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.036708s] [吞吐率：27.24req/s] [内存消耗：4,351.95kb] [文件加载：142]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[2019-04-28T12:11:07+08:00] 201.1.211.76 GET 39.96.87.22:80/
+[运行时间：0.016413s] [吞吐率：60.93req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T12:11:47+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.037040s] [吞吐率：27.00req/s] [内存消耗：4,351.95kb] [文件加载：142]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[2019-04-28T12:15:01+08:00] 106.14.115.254 GET www.csgxjk.com/
+[运行时间：0.016268s] [吞吐率：61.47req/s] [内存消耗：1,975.35kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T12:22:02+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.241762s] [吞吐率：4.14req/s] [内存消耗：3,921.38kb] [文件加载：160]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [-1]Authorize Failed: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: KFNBm24ce-XfJggA ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T12:22:07+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.248774s] [吞吐率：4.02req/s] [内存消耗：3,921.00kb] [文件加载：160]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [-1]Authorize Failed: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: KFNBL14ce-i7dlka ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T12:22:17+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=011fU9xF0M70Cc2SobyF0ClixF0fU9x5&state=b7aa587d7432950750921df68fac2516
+[运行时间：0.017923s] [吞吐率：55.79req/s] [内存消耗：2,047.74kb] [文件加载：76]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011fU9xF0M70Cc2SobyF0ClixF0fU9x5',
+  'state' => 'b7aa587d7432950750921df68fac2516',
+)
+---------------------------------------------------------------
+[2019-04-28T12:24:19+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=011fU9xF0M70Cc2SobyF0ClixF0fU9x5&state=b7aa587d7432950750921df68fac2516
+[运行时间：0.484161s] [吞吐率：2.07req/s] [内存消耗：3,620.27kb] [文件加载：161]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011fU9xF0M70Cc2SobyF0ClixF0fU9x5',
+  'state' => 'b7aa587d7432950750921df68fac2516',
+)
+---------------------------------------------------------------
+[2019-04-28T12:24:48+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=011fU9xF0M70Cc2SobyF0ClixF0fU9x5&state=b7aa587d7432950750921df68fac2516
+[运行时间：0.262427s] [吞吐率：3.81req/s] [内存消耗：3,594.77kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011fU9xF0M70Cc2SobyF0ClixF0fU9x5',
+  'state' => 'b7aa587d7432950750921df68fac2516',
+)
+[ error ] [-1]Authorize Failed: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: LFNB7qaLRa-KGWwYa ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T12:25:07+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=0218CxlJ0kDjTf2m64oJ0RpHlJ08CxlU&state=b7aa587d7432950750921df68fac2516
+[运行时间：0.515885s] [吞吐率：1.94req/s] [内存消耗：3,534.55kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0218CxlJ0kDjTf2m64oJ0RpHlJ08CxlU',
+  'state' => 'b7aa587d7432950750921df68fac2516',
+)
+---------------------------------------------------------------
+[2019-04-28T12:25:07+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016005s] [吞吐率：62.48req/s] [内存消耗：1,976.86kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T12:25:10+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.242278s] [吞吐率：4.13req/s] [内存消耗：3,920.96kb] [文件加载：160]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [-1]Authorize Failed: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: mFNBqRLnRa-QInWOa ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T12:25:13+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=071qesuE1SY2o70xGSvE13jyuE1qesuk&state=3b7e04578da53a962487de096e6be76b
+[运行时间：0.456356s] [吞吐率：2.19req/s] [内存消耗：3,534.55kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071qesuE1SY2o70xGSvE13jyuE1qesuk',
+  'state' => '3b7e04578da53a962487de096e6be76b',
+)
+---------------------------------------------------------------
+[2019-04-28T12:25:13+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.015627s] [吞吐率：63.99req/s] [内存消耗：1,976.86kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:36:40+08:00] 122.61.213.7 GET 39.96.87.22:80/
+[运行时间：0.016512s] [吞吐率：60.56req/s] [内存消耗：1,975.37kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:40:06+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.024095s] [吞吐率：41.50req/s] [内存消耗：2,950.63kb] [文件加载：128]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: HTTPS[/data/www/csgx2/application/common.php:20]
+---------------------------------------------------------------
+[2019-04-28T13:41:08+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.249598s] [吞吐率：4.01req/s] [内存消耗：3,923.76kb] [文件加载：160]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [-1]Authorize Failed: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: ugNB67aLRa-IfX13 ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T13:41:11+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061E8zJx1KUZJ90EzDMx11NIJx1E8zJK&state=6418b8058a4ed2d72e6284a954dd7b5c
+[运行时间：0.466972s] [吞吐率：2.14req/s] [内存消耗：3,536.53kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061E8zJx1KUZJ90EzDMx11NIJx1E8zJK',
+  'state' => '6418b8058a4ed2d72e6284a954dd7b5c',
+)
+---------------------------------------------------------------
+[2019-04-28T13:41:11+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016849s] [吞吐率：59.35req/s] [内存消耗：1,978.84kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:44:31+08:00] 106.120.98.190 GET csgxjk.com/wxapi/work
+[运行时间：0.018161s] [吞吐率：55.06req/s] [内存消耗：2,048.95kb] [文件加载：76]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:44:39+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.251583s] [吞吐率：3.97req/s] [内存消耗：3,923.72kb] [文件加载：160]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [-1]Authorize Failed: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: VgNBT8yFe-Riz08 ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T13:44:42+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=081A7MR10tXe1I1YpzT10FQLR10A7MRF&state=6bf123984e739941f5d4b8046ec98980
+[运行时间：0.485193s] [吞吐率：2.06req/s] [内存消耗：3,536.59kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081A7MR10tXe1I1YpzT10FQLR10A7MRF',
+  'state' => '6bf123984e739941f5d4b8046ec98980',
+)
+---------------------------------------------------------------
+[2019-04-28T13:44:42+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016717s] [吞吐率：59.82req/s] [内存消耗：1,978.84kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:46:44+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.257815s] [吞吐率：3.88req/s] [内存消耗：3,923.72kb] [文件加载：160]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [-1]Authorize Failed: {"errcode":41008,"errmsg":"missing code, hints: [ req_id: WgNBcEyFe-eMdOtA ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T13:46:47+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061sXCzV0vjqo12dABzV0XbMzV0sXCz5&state=64f71bd6b39cbfab3b58736b3555f3a2
+[运行时间：0.421598s] [吞吐率：2.37req/s] [内存消耗：3,536.59kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061sXCzV0vjqo12dABzV0XbMzV0sXCz5',
+  'state' => '64f71bd6b39cbfab3b58736b3555f3a2',
+)
+---------------------------------------------------------------
+[2019-04-28T13:46:47+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.015978s] [吞吐率：62.59req/s] [内存消耗：1,978.84kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:52:03+08:00] 78.165.107.2 GET 39.96.87.22:80/
+[运行时间：0.016457s] [吞吐率：60.76req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:55:08+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025885s] [吞吐率：38.63req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T13:55:11+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061s2La32NryPO0w1hb32QWqa32s2Lar&state=ea9f85d7db9f582a73b4831cd1f57ade
+[运行时间：0.402149s] [吞吐率：2.49req/s] [内存消耗：3,527.16kb] [文件加载：153]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061s2La32NryPO0w1hb32QWqa32s2Lar',
+  'state' => 'ea9f85d7db9f582a73b4831cd1f57ade',
+)
+---------------------------------------------------------------
+[2019-04-28T13:57:28+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.021355s] [吞吐率：46.83req/s] [内存消耗：2,659.70kb] [文件加载：120]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:57:44+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.021949s] [吞吐率：45.56req/s] [内存消耗：2,659.70kb] [文件加载：120]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T13:57:52+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.021459s] [吞吐率：46.60req/s] [内存消耗：2,660.76kb] [文件加载：120]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T14:00:08+08:00] 140.207.54.78 POST csgxjk.com/wxapi/?signature=093b70ee9f967b6b7965988e03020db25c6f9e54&timestamp=1556431208&nonce=29768460&openid=ozrJJ6EkjIziGGLaGqfS-Ox9GopI&encrypt_type=aes&msg_signature=100d064ddfc98f97f53353b95087bea7c7889c0d
+[运行时间：0.018621s] [吞吐率：53.70req/s] [内存消耗：2,100.92kb] [文件加载：79]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'content-length' => '768',
+  'pragma' => 'no-cache',
+  'host' => 'csgxjk.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '093b70ee9f967b6b7965988e03020db25c6f9e54',
+  'timestamp' => '1556431208',
+  'nonce' => '29768460',
+  'openid' => 'ozrJJ6EkjIziGGLaGqfS-Ox9GopI',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '100d064ddfc98f97f53353b95087bea7c7889c0d',
+  '<xml>
+____<ToUserName><!' => 
+  array (
+    'CDATA[gh_40936a51ce8c' => ']]></Encrypt>
+</xml>
+',
+  ),
+)
+---------------------------------------------------------------
+[2019-04-28T14:18:16+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.021422s] [吞吐率：46.68req/s] [内存消耗：2,825.81kb] [文件加载：121]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:30+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.022284s] [吞吐率：44.88req/s] [内存消耗：2,825.81kb] [文件加载：121]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:41+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.026713s] [吞吐率：37.43req/s] [内存消耗：3,253.57kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:38:44+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=0219zrfG03M0se2vvqfG05WpfG09zrfp&state=cf30b5505851682289a5bb542f12ff7d
+[运行时间：0.392044s] [吞吐率：2.55req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0219zrfG03M0se2vvqfG05WpfG09zrfp',
+  'state' => 'cf30b5505851682289a5bb542f12ff7d',
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:44+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025293s] [吞吐率：39.54req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:38:47+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=071n2QxC1PnAR40rYTuC1bvExC1n2QxU&state=7b8769b2c1b3f7d37a88977af33796a1
+[运行时间：0.479845s] [吞吐率：2.08req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071n2QxC1PnAR40rYTuC1bvExC1n2QxU',
+  'state' => '7b8769b2c1b3f7d37a88977af33796a1',
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:47+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025370s] [吞吐率：39.42req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:38:50+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061XcK810D1HsI1XaK810TzM810XcK85&state=159b03d4f785ea9ba45450cbc4b3549f
+[运行时间：0.412040s] [吞吐率：2.43req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061XcK810D1HsI1XaK810TzM810XcK85',
+  'state' => '159b03d4f785ea9ba45450cbc4b3549f',
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:50+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025873s] [吞吐率：38.65req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:38:53+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=081OsNEO0gTEy32nYVBO0rnuEO0OsNEf&state=dca65a0a73e79dd2703e78473982f3e1
+[运行时间：0.474232s] [吞吐率：2.11req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081OsNEO0gTEy32nYVBO0rnuEO0OsNEf',
+  'state' => 'dca65a0a73e79dd2703e78473982f3e1',
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:53+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025763s] [吞吐率：38.82req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:38:56+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=011Z2SZn0hQwUl17vRZn0ZB40o0Z2SZj&state=310328487197effc9cf9ccd1664a3eca
+[运行时间：0.389178s] [吞吐率：2.57req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011Z2SZn0hQwUl17vRZn0ZB40o0Z2SZj',
+  'state' => '310328487197effc9cf9ccd1664a3eca',
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:56+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025288s] [吞吐率：39.54req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:38:59+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=081yNYdb1S0BCw0Surab1Lp4eb1yNYds&state=71da0a7ad9dbbfa852d5adaf8f0e8324
+[运行时间：0.458100s] [吞吐率：2.18req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081yNYdb1S0BCw0Surab1Lp4eb1yNYds',
+  'state' => '71da0a7ad9dbbfa852d5adaf8f0e8324',
+)
+---------------------------------------------------------------
+[2019-04-28T14:38:59+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025198s] [吞吐率：39.69req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:02+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=021e6UTk2O329E0vCKTk20y7Uk2e6UTV&state=22ce4b0f01ce9171264b6aa62a411499
+[运行时间：0.434375s] [吞吐率：2.30req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021e6UTk2O329E0vCKTk20y7Uk2e6UTV',
+  'state' => '22ce4b0f01ce9171264b6aa62a411499',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:02+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.026043s] [吞吐率：38.40req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:05+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=021fxz4h0Q099x1m0y4h0dfz4h0fxz40&state=0e43aa213d11b6cb5833079584923199
+[运行时间：0.482815s] [吞吐率：2.07req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021fxz4h0Q099x1m0y4h0dfz4h0fxz40',
+  'state' => '0e43aa213d11b6cb5833079584923199',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:05+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025259s] [吞吐率：39.59req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:08+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=071xeGRJ0HPTp82zjARJ0PMrRJ0xeGR3&state=bc80eff5a779a915cd57285eea31b2f3
+[运行时间：0.396219s] [吞吐率：2.52req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071xeGRJ0HPTp82zjARJ0PMrRJ0xeGR3',
+  'state' => 'bc80eff5a779a915cd57285eea31b2f3',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:08+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.024922s] [吞吐率：40.12req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:11+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=071ONiAf1rucTr0HqkAf1YVnAf1ONiAq&state=30c71b0baa7874a616e114332faa7e13
+[运行时间：0.467439s] [吞吐率：2.14req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071ONiAf1rucTr0HqkAf1YVnAf1ONiAq',
+  'state' => '30c71b0baa7874a616e114332faa7e13',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:11+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025718s] [吞吐率：38.88req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:14+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061S03rV0nMpg125ERrV0L8srV0S03r5&state=dece41b46017fd6762e919852207f6f9
+[运行时间：0.383281s] [吞吐率：2.61req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061S03rV0nMpg125ERrV0L8srV0S03r5',
+  'state' => 'dece41b46017fd6762e919852207f6f9',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:14+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025456s] [吞吐率：39.28req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:17+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061FEhQ10hIKZH1u8EM10JncQ10FEhQy&state=1aa1c66d2799ecbee4add6bc47d9a947
+[运行时间：0.387474s] [吞吐率：2.58req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061FEhQ10hIKZH1u8EM10JncQ10FEhQy',
+  'state' => '1aa1c66d2799ecbee4add6bc47d9a947',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:17+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.024633s] [吞吐率：40.60req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:20+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=001STcXV03yCW22J5bWV0uP2XV0STcX1&state=d3c9732ec760b21d79bd56148ce98060
+[运行时间：0.380996s] [吞吐率：2.62req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001STcXV03yCW22J5bWV0uP2XV0STcX1',
+  'state' => 'd3c9732ec760b21d79bd56148ce98060',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:20+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025426s] [吞吐率：39.33req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:23+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=021AJLAH0EAHef2p57CH097BAH0AJLAR&state=6e6518ef1dd540cd9179ca202a01abdc
+[运行时间：0.401340s] [吞吐率：2.49req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021AJLAH0EAHef2p57CH097BAH0AJLAR',
+  'state' => '6e6518ef1dd540cd9179ca202a01abdc',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:23+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.024688s] [吞吐率：40.51req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:26+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=011AyR5725e89S03Lv772abA572AyR5f&state=6a21d3569559460baf79493c52c71249
+[运行时间：0.386129s] [吞吐率：2.59req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011AyR5725e89S03Lv772abA572AyR5f',
+  'state' => '6a21d3569559460baf79493c52c71249',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:26+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025471s] [吞吐率：39.26req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:29+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=021QFZYK1KmVE30ihmWK15g1ZK1QFZY2&state=bac64deea1655802d3e04afad9be5924
+[运行时间：0.388516s] [吞吐率：2.57req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021QFZYK1KmVE30ihmWK15g1ZK1QFZY2',
+  'state' => 'bac64deea1655802d3e04afad9be5924',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:29+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.024342s] [吞吐率：41.08req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:32+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=021GGzM91haVwP19FSL91gKyM91GGzM5&state=8d18511dde7172ab17baf4b5d9a5413e
+[运行时间：0.387304s] [吞吐率：2.58req/s] [内存消耗：3,536.41kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021GGzM91haVwP19FSL91gKyM91GGzM5',
+  'state' => '8d18511dde7172ab17baf4b5d9a5413e',
+)
+---------------------------------------------------------------
+[2019-04-28T14:39:32+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.024907s] [吞吐率：40.15req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T14:39:35+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=0711AKYP0JDoj42WFaZP0GWoYP01AKYG&state=2df1f0927d09f3ddac8b5c35b8de978c
+[运行时间：0.405473s] [吞吐率：2.47req/s] [内存消耗：3,605.59kb] [文件加载：161]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0711AKYP0JDoj42WFaZP0GWoYP01AKYG',
+  'state' => '2df1f0927d09f3ddac8b5c35b8de978c',
+)
+[ error ] [8]未定义数组索引: target_url[/data/www/csgx2/application/wxapi/controller/Callback.php:26]
+---------------------------------------------------------------
+[2019-04-28T14:54:54+08:00] 66.249.73.81 GET csgxjk.com/
+[运行时间：0.016909s] [吞吐率：59.14req/s] [内存消耗：1,977.80kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T15:35:12+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.026662s] [吞吐率：37.51req/s] [内存消耗：3,253.55kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '106.120.98.190',
+  'x-forwarded-for' => '106.120.98.190',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; LLD-AL00 Build/HONORLLD-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044611 Mobile Safari/537.36 MMWEBID/6789 MicroMessenger/7.0.4.1420(0x27000439) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T15:35:13+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061BbzYM1J7hN71bQNVM1mdeYM1BbzYy&state=815ff00e0924eab7ef7ca35fcda65e71
+[运行时间：0.483940s] [吞吐率：2.07req/s] [内存消耗：3,606.30kb] [文件加载：161]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '106.120.98.190',
+  'x-forwarded-for' => '106.120.98.190',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; LLD-AL00 Build/HONORLLD-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044611 Mobile Safari/537.36 MMWEBID/6789 MicroMessenger/7.0.4.1420(0x27000439) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'csgxjk.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061BbzYM1J7hN71bQNVM1mdeYM1BbzYy',
+  'state' => '815ff00e0924eab7ef7ca35fcda65e71',
+)
+[ error ] [8]未定义数组索引: target_url[/data/www/csgx2/application/wxapi/controller/Callback.php:26]
+---------------------------------------------------------------
+[2019-04-28T15:35:14+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061BbzYM1J7hN71bQNVM1mdeYM1BbzYy&state=815ff00e0924eab7ef7ca35fcda65e71
+[运行时间：0.169425s] [吞吐率：5.90req/s] [内存消耗：3,576.31kb] [文件加载：155]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; LLD-AL00 Build/HONORLLD-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044611 Mobile Safari/537.36 MMWEBID/6789 MicroMessenger/7.0.4.1420(0x27000439) Process/tools NetType/WIFI Language/zh_CN',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061BbzYM1J7hN71bQNVM1mdeYM1BbzYy',
+  'state' => '815ff00e0924eab7ef7ca35fcda65e71',
+)
+[ error ] [-1]Authorize Failed: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: rhNB36yFe-Lrg4QA ]"}[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:448]
+---------------------------------------------------------------
+[2019-04-28T15:36:03+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025962s] [吞吐率：38.52req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T15:36:06+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=061gYkdH12yGu00MtadH1fQzdH1gYkdq&state=1b6c0120957844a57803d4dbeb8a21dc
+[运行时间：0.402165s] [吞吐率：2.49req/s] [内存消耗：3,605.59kb] [文件加载：161]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061gYkdH12yGu00MtadH1fQzdH1gYkdq',
+  'state' => '1b6c0120957844a57803d4dbeb8a21dc',
+)
+[ error ] [8]未定义数组索引: target_url[/data/www/csgx2/application/wxapi/controller/Callback.php:26]
+---------------------------------------------------------------
+[2019-04-28T15:36:11+08:00] 61.151.207.141 GET csgxjk.com/wxapi/device/work
+[运行时间：0.025823s] [吞吐率：38.72req/s] [内存消耗：3,241.84kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T15:41:32+08:00] 106.14.189.11 GET 39.96.87.22/
+[运行时间：0.015939s] [吞吐率：62.74req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T15:46:49+08:00] 107.170.198.205 GET 39.96.87.22/
+[运行时间：0.016911s] [吞吐率：59.13req/s] [内存消耗：1,977.12kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T15:54:03+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.026883s] [吞吐率：37.20req/s] [内存消耗：3,252.70kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: wechat_user[/data/www/csgx2/application/wxapi/controller/Common.php:32]
+---------------------------------------------------------------
+[2019-04-28T15:54:06+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=081NR9AO1SmbAa1uBEzO1QygAO1NR9AJ&state=ae98a081fbea7800da2c614061f4ae3e
+[运行时间：0.397695s] [吞吐率：2.51req/s] [内存消耗：3,536.78kb] [文件加载：156]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081NR9AO1SmbAa1uBEzO1QygAO1NR9AJ',
+  'state' => 'ae98a081fbea7800da2c614061f4ae3e',
+)
+---------------------------------------------------------------
+[2019-04-28T15:54:06+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.016412s] [吞吐率：60.93req/s] [内存消耗：1,978.84kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T16:05:34+08:00] 223.71.40.74 GET www.csgxjk.com/
+[运行时间：0.016918s] [吞吐率：59.11req/s] [内存消耗：1,978.46kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T16:30:48+08:00] 61.160.215.38 GET 39.96.87.22/phpmyadmin/scripts/setup.php
+[运行时间：0.014710s] [吞吐率：67.98req/s] [内存消耗：1,724.88kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T16:31:03+08:00] 61.160.215.38 GET 39.96.87.22/xampp/phpmyadmin/index.php
+[运行时间：0.014886s] [吞吐率：67.18req/s] [内存消耗：1,724.88kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T16:31:04+08:00] 61.160.215.38 GET 39.96.87.22/shaAdmin/index.php
+[运行时间：0.015377s] [吞吐率：65.03req/s] [内存消耗：1,724.87kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T16:31:05+08:00] 61.160.215.38 GET 39.96.87.22/phpMyAdmina/index.php
+[运行时间：0.014843s] [吞吐率：67.37req/s] [内存消耗：1,724.87kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T16:31:06+08:00] 61.160.215.38 GET 39.96.87.22/321/index.php
+[运行时间：0.014733s] [吞吐率：67.87req/s] [内存消耗：1,724.86kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T16:31:06+08:00] 61.160.215.38 GET 39.96.87.22/phpmy/index.php
+[运行时间：0.014914s] [吞吐率：67.05req/s] [内存消耗：1,724.86kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T17:23:12+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028698s] [吞吐率：34.85req/s] [内存消耗：3,349.30kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[2019-04-28T17:23:23+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/bill.html?did=1&price=1
+[运行时间：0.028213s] [吞吐率：35.44req/s] [内存消耗：3,449.81kb] [文件加载：92]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/wxapi/device/work',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'did' => '1',
+  'price' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'liangzi.bg_bill' doesn't exist[/data/www/csgx2/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+[2019-04-28T17:23:42+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028931s] [吞吐率：34.56req/s] [内存消耗：3,348.92kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[2019-04-28T17:24:37+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029684s] [吞吐率：33.69req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[2019-04-28T17:24:40+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028630s] [吞吐率：34.93req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[2019-04-28T17:24:52+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029146s] [吞吐率：34.31req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[2019-04-28T17:24:55+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029809s] [吞吐率：33.55req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[2019-04-28T17:25:53+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028905s] [吞吐率：34.60req/s] [内存消耗：3,349.46kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[2019-04-28T17:25:54+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029461s] [吞吐率：33.94req/s] [内存消耗：3,349.46kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[2019-04-28T17:26:00+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028677s] [吞吐率：34.87req/s] [内存消耗：3,349.46kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[2019-04-28T17:26:12+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028671s] [吞吐率：34.88req/s] [内存消耗：3,349.46kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[2019-04-28T17:27:22+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029758s] [吞吐率：33.60req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[2019-04-28T17:27:45+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029130s] [吞吐率：34.33req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[2019-04-28T17:28:05+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029232s] [吞吐率：34.21req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[2019-04-28T17:28:16+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028411s] [吞吐率：35.20req/s] [内存消耗：3,349.46kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[2019-04-28T17:29:20+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028390s] [吞吐率：35.22req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[2019-04-28T17:30:24+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029330s] [吞吐率：34.09req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[2019-04-28T17:30:25+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029317s] [吞吐率：34.11req/s] [内存消耗：3,348.96kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[2019-04-28T17:31:10+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.028997s] [吞吐率：34.49req/s] [内存消耗：3,349.46kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=27g7fghta4j1v6t6efg9ktbqqk; thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; pgv_si=s461872128',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[2019-04-28T18:01:31+08:00] 139.162.88.63 GET clientapi.ipip.net/echo.php?info=1234567890
+[运行时间：0.015035s] [吞吐率：66.51req/s] [内存消耗：1,725.13kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T18:29:18+08:00] 182.141.100.176 GET 39.96.87.22/web/cgi-bin/hi3510/param.cgi?cmd=getp2pattr&cmd=getuserattr
+[运行时间：0.014361s] [吞吐率：69.63req/s] [内存消耗：1,703.61kb] [文件加载：66]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T18:31:35+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.029239s] [吞吐率：34.20req/s] [内存消耗：3,351.01kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[2019-04-28T18:32:17+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work
+[运行时间：0.027566s] [吞吐率：36.28req/s] [内存消耗：3,225.77kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类型错误: Too few arguments to function Overtrue\Socialite\Providers\AbstractProvider::scopes(), 0 passed in /data/www/csgx2/application/wxapi/controller/Common.php on line 32 and exactly 1 expected[/data/www/csgx2/vendor/overtrue/socialite/src/Providers/AbstractProvider.php:281]
+---------------------------------------------------------------
+[2019-04-28T18:32:20+08:00] 106.120.98.190 GET csgxjk.com/wxapi/callback.html?code=021vDTeE04h70l2m2EiE0A5OeE0vDTeP&state=5fcdc3942611cfc8284b4d8e44aa4cbb
+[运行时间：0.426051s] [吞吐率：2.35req/s] [内存消耗：3,604.29kb] [文件加载：161]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; ASPSESSIONID=7dk3j5bifi3u7vdrqlsqq8viuh',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021vDTeE04h70l2m2EiE0A5OeE0vDTeP',
+  'state' => '5fcdc3942611cfc8284b4d8e44aa4cbb',
+)
+[ error ] [8]未定义变量: _SESSION[/data/www/csgx2/application/wxapi/controller/Callback.php:21]
+---------------------------------------------------------------
+[2019-04-28T18:57:41+08:00] 179.106.102.183 GET 39.96.87.22:80/
+[运行时间：0.015933s] [吞吐率：62.76req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T19:05:13+08:00] 116.236.146.21 GET www.csgxjk.com/
+[运行时间：0.016488s] [吞吐率：60.65req/s] [内存消耗：1,978.74kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6333328384',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T20:02:56+08:00] 95.213.177.124 POST check.proxyradar.com/azenv.php?auth=155645297699&a=PSCN&i=660625174&p=80
+[运行时间：0.014762s] [吞吐率：67.74req/s] [内存消耗：1,724.00kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-04-28T20:17:09+08:00] 202.163.125.129 GET 39.96.87.22:80/
+[运行时间：0.016882s] [吞吐率：59.23req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-28T21:35:05+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.015087s] [吞吐率：66.28req/s] [内存消耗：1,724.83kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php

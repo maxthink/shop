@@ -1,0 +1,1964 @@
+---------------------------------------------------------------
+[2019-05-07T00:23:26+08:00] 173.44.41.232 GET csgxjk.com/wp-login.php
+[运行时间：0.015337s] [吞吐率：65.20req/s] [内存消耗：1,724.81kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T02:00:18+08:00] 71.6.143.90 GET 39.96.87.22/
+[运行时间：0.016279s] [吞吐率：61.43req/s] [内存消耗：1,977.12kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T02:11:04+08:00] 95.213.177.124 POST check.proxyradar.com/azenv.php?auth=155716626479&a=PSCN&i=660625174&p=80
+[运行时间：0.014882s] [吞吐率：67.19req/s] [内存消耗：1,724.00kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T03:33:22+08:00] 120.132.3.65 GET www.qq.com/404/search_children.js
+[运行时间：0.015369s] [吞吐率：65.07req/s] [内存消耗：1,724.84kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T04:06:33+08:00] 91.217.13.92 GET 39.96.87.22:80/
+[运行时间：0.015991s] [吞吐率：62.54req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T05:18:19+08:00] 190.186.103.121 GET 39.96.87.22:80/
+[运行时间：0.016155s] [吞吐率：61.90req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T06:41:47+08:00] 47.92.71.118 GET csgxjk.com/
+[运行时间：0.016827s] [吞吐率：59.43req/s] [内存消耗：1,977.48kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T06:43:25+08:00] 92.55.38.135 GET 39.96.87.22:80/
+[运行时间：0.015972s] [吞吐率：62.61req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T07:05:41+08:00] 106.14.190.222 GET www.csgxjk.com/
+[运行时间：0.015727s] [吞吐率：63.59req/s] [内存消耗：1,977.52kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T07:54:43+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.014438s] [吞吐率：69.26req/s] [内存消耗：1,724.83kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T08:09:55+08:00] 54.183.122.24 GET 39.96.87.22/
+[运行时间：0.016795s] [吞吐率：59.54req/s] [内存消耗：1,977.53kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T09:18:17+08:00] 14.161.50.48 GET 39.96.87.22:80/
+[运行时间：0.016435s] [吞吐率：60.85req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T09:31:47+08:00] 47.92.110.185 GET www.csgxjk.com/
+[运行时间：0.016539s] [吞吐率：60.46req/s] [内存消耗：1,977.33kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T09:32:08+08:00] 101.132.182.68 GET 39.96.87.22/
+[运行时间：0.015650s] [吞吐率：63.90req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T09:34:07+08:00] 47.92.71.118 GET csgxjk.com/
+[运行时间：0.016856s] [吞吐率：59.33req/s] [内存消耗：1,977.30kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T10:12:23+08:00] 220.200.163.210 GET 39.96.87.22/device.rsp?opt=user&cmd=list
+[运行时间：0.015095s] [吞吐率：66.25req/s] [内存消耗：1,725.20kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T10:43:37+08:00] 180.153.186.131 POST 39.96.87.22/sdk
+[运行时间：0.038473s] [吞吐率：25.99req/s] [内存消耗：1,725.22kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T10:43:37+08:00] 180.153.186.131 GET 39.96.87.22/nmaplowercheck1557197017
+[运行时间：0.048452s] [吞吐率：20.64req/s] [内存消耗：1,724.84kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T10:43:37+08:00] 180.153.186.131 GET 39.96.87.22/
+[运行时间：0.015769s] [吞吐率：63.42req/s] [内存消耗：1,976.70kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T10:43:37+08:00] 180.153.186.131 GET 39.96.87.22/HNAP1
+[运行时间：0.014334s] [吞吐率：69.76req/s] [内存消耗：1,724.81kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T10:43:37+08:00] 180.153.186.131 GET 39.96.87.22/evox/about
+[运行时间：0.014032s] [吞吐率：71.27req/s] [内存消耗：1,724.82kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T10:43:49+08:00] 180.153.186.131 GET 39.96.87.22/
+[运行时间：0.016975s] [吞吐率：58.91req/s] [内存消耗：1,977.38kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (compatible; Wappalyzer)',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'accept' => 'text/html,*/*',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T10:43:54+08:00] 180.153.186.131 HEAD 39.96.87.22/
+[运行时间：0.015994s] [吞吐率：62.52req/s] [内存消耗：1,976.31kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Chrome/54.0 (Windows NT 10.0)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T10:43:54+08:00] 180.153.186.131 HEAD 39.96.87.22:80/
+[运行时间：0.016247s] [吞吐率：61.55req/s] [内存消耗：1,977.55kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'chrome 100',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T10:43:54+08:00] 101.198.186.223 GET 39.96.87.22/
+[运行时间：0.016813s] [吞吐率：59.48req/s] [内存消耗：1,977.05kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Chrome/54.0 (Windows NT 10.0)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T11:47:06+08:00] 95.213.177.125 POST check.proxyradar.com/azenv.php?auth=155720082629&a=PSCN&i=660625174&p=80
+[运行时间：0.015210s] [吞吐率：65.75req/s] [内存消耗：1,724.00kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T11:55:52+08:00] 213.6.227.238 GET 39.96.87.22:80/
+[运行时间：0.016773s] [吞吐率：59.62req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T11:57:38+08:00] 106.120.98.190 GET www.csgxjk.com/admin/login/index.html
+[运行时间：0.019136s] [吞吐率：52.26req/s] [内存消耗：2,143.48kb] [文件加载：82]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/login_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-07T11:57:38+08:00] 106.120.98.190 GET www.csgxjk.com/static/admin/libs/layui/font/iconfont.eot?v=240
+[运行时间：0.014916s] [吞吐率：67.04req/s] [内存消耗：1,726.05kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T11:57:48+08:00] 106.120.98.190 POST www.csgxjk.com/admin/login/login.html
+[运行时间：0.037781s] [吞吐率：26.47req/s] [内存消耗：3,370.73kb] [文件加载：96]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '30',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/login/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_admin` [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`userid` , `content` , `username` , `time` , `ip`) VALUES (1 , '' , '' , 1557201468 , '106.120.98.190') [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_menu` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `id`,`router` FROM `bg_menu` WHERE  (  router <> ''  ) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] select id,name,router,pid,menuIcon from bg_menu where isMenu&1 order by pid asc, orderNumber asc [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[2019-05-07T11:57:48+08:00] 106.120.98.190 GET www.csgxjk.com/admin/login/admin.html
+[运行时间：0.018429s] [吞吐率：54.26req/s] [内存消耗：2,128.65kb] [文件加载：80]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T11:57:48+08:00] 106.120.98.190 GET www.csgxjk.com/admin/login/index.html
+[运行时间：0.018266s] [吞吐率：54.75req/s] [内存消耗：2,133.09kb] [文件加载：81]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T11:57:48+08:00] 106.120.98.190 GET www.csgxjk.com/admin/index/index.html
+[运行时间：0.018174s] [吞吐率：55.02req/s] [内存消耗：2,167.96kb] [文件加载：83]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/index_index.php [ array (
+  0 => 'userinfo',
+  1 => 'menu',
+) ]
+---------------------------------------------------------------
+[2019-05-07T11:57:49+08:00] 106.120.98.190 GET www.csgxjk.com/static/admin/libs/layui/font/iconfont.eot?v=240
+[运行时间：0.015465s] [吞吐率：64.66req/s] [内存消耗：1,726.05kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T11:57:49+08:00] 106.120.98.190 GET www.csgxjk.com/admin/dashboard/welcome.html
+[运行时间：0.027925s] [吞吐率：35.81req/s] [内存消耗：3,086.42kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/dashboard_welcome.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[2019-05-07T11:57:53+08:00] 106.120.98.190 GET www.csgxjk.com/admin/main/index.html
+[运行时间：0.034327s] [吞吐率：29.13req/s] [内存消耗：3,153.70kb] [文件加载：93]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看后台首页' , 1557201473 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.004195s ]
+[ sql ] [ SQL ] SELECT VERSION() as version [ RunTime:0.000157s ]
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/data/www/csgx2/application/admin/controller/Main.php:40]
+---------------------------------------------------------------
+[2019-05-07T11:57:56+08:00] 106.120.98.190 GET www.csgxjk.com/admin/dashboard/analysis.html
+[运行时间：0.029059s] [吞吐率：34.41req/s] [内存消耗：3,167.96kb] [文件加载：94]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/dashboard_analysis.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000384s ]
+[ error ] [8]未定义变量: login_list[/data/www/csgx2/runtime/temp/9739eec738ab14fecfb992294de81c31.php:96]
+---------------------------------------------------------------
+[2019-05-07T11:58:00+08:00] 106.120.98.190 GET www.csgxjk.com/admin/device/index.html
+[运行时间：0.028252s] [吞吐率：35.40req/s] [内存消耗：3,108.82kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/device_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:00+08:00] 106.120.98.190 POST www.csgxjk.com/admin/device/index.html
+[运行时间：0.031458s] [吞吐率：31.79req/s] [内存消耗：3,626.20kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '15',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/device/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:07+08:00] 106.120.98.190 POST www.csgxjk.com/admin/device/lock.html
+[运行时间：0.047715s] [吞吐率：20.96req/s] [内存消耗：3,515.45kb] [文件加载：95]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '12',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/device/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '1',
+  'state' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] UPDATE `bg_device`  SET `lock` = 1  WHERE  `id` = 1 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:07+08:00] 106.120.98.190 POST www.csgxjk.com/admin/device/lock.html
+[运行时间：0.035975s] [吞吐率：27.80req/s] [内存消耗：3,515.45kb] [文件加载：95]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '12',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/device/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'Id' => '1',
+  'state' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] UPDATE `bg_device`  SET `lock` = 0  WHERE  `id` = 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:09+08:00] 106.120.98.190 GET www.csgxjk.com/admin/bill/index.html
+[运行时间：0.028081s] [吞吐率：35.61req/s] [内存消耗：3,094.61kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/bill_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:10+08:00] 106.120.98.190 POST www.csgxjk.com/admin/bill/index.html
+[运行时间：0.032315s] [吞吐率：30.95req/s] [内存消耗：3,791.91kb] [文件加载：104]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '15',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/bill/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `h_bill` LIMIT 0,15 [ RunTime:0.000376s ]
+[ error ] [2]array_merge(): Argument #1 is not an array[/data/www/csgx2/application/admin/controller/Bill.php:30]
+---------------------------------------------------------------
+[2019-05-07T11:58:13+08:00] 106.120.98.190 GET www.csgxjk.com/admin/user/index.html
+[运行时间：0.027910s] [吞吐率：35.83req/s] [内存消耗：3,094.52kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/user_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:14+08:00] 106.120.98.190 POST www.csgxjk.com/admin/user/index.html
+[运行时间：0.030746s] [吞吐率：32.52req/s] [内存消耗：3,623.16kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '15',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/user/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000364s ]
+[ error ] [0]致命错误: Using $this when not in object context[/data/www/csgx2/application/admin/model/User.php:37]
+---------------------------------------------------------------
+[2019-05-07T11:58:26+08:00] 106.120.98.190 GET www.csgxjk.com/admin/shop/index.html
+[运行时间：0.018761s] [吞吐率：53.30req/s] [内存消耗：2,083.34kb] [文件加载：78]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T11:58:35+08:00] 106.120.98.190 GET www.csgxjk.com/admin/banner/index.html
+[运行时间：0.035406s] [吞吐率：28.24req/s] [内存消耗：3,116.46kb] [文件加载：92]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001510s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看幻灯广告' , 1557201515 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.004861s ]
+[ error ] [0]致命错误: Class 'app\common\model\Banner' not found[/data/www/csgx2/application/admin/controller/Banner.php:16]
+---------------------------------------------------------------
+[2019-05-07T11:58:37+08:00] 106.120.98.190 GET www.csgxjk.com/admin/admin/index.html
+[运行时间：0.038789s] [吞吐率：25.78req/s] [内存消耗：3,664.09kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/admin_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+  3 => 'roleids',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看管理员' , 1557201517 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.004739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_role` [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:37+08:00] 106.120.98.190 POST www.csgxjk.com/admin/admin/index.html
+[运行时间：0.037427s] [吞吐率：26.72req/s] [内存消耗：3,569.61kb] [文件加载：96]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '15',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/admin/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看管理员' , 1557201517 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.006403s ]
+[ sql ] [ SQL ] select * from bg_admin limit 0,10 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:38+08:00] 106.120.98.190 GET www.csgxjk.com/admin/role/index.html
+[运行时间：0.032735s] [吞吐率：30.55req/s] [内存消耗：3,078.13kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/role_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看角色' , 1557201518 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.004684s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:38+08:00] 106.120.98.190 POST www.csgxjk.com/admin/role/index.html
+[运行时间：0.033827s] [吞吐率：29.56req/s] [内存消耗：3,088.96kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '15',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/role/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看角色' , 1557201518 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.004126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`createtime`,`remark` FROM `bg_role` [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:39+08:00] 106.120.98.190 GET www.csgxjk.com/admin/menu/index.html
+[运行时间：0.030938s] [吞吐率：32.32req/s] [内存消耗：3,586.39kb] [文件加载：97]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/menu_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+  3 => 'menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] select id,name,router,pid,menuIcon from bg_menu where isMenu&1 order by pid asc, orderNumber asc [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:39+08:00] 106.120.98.190 GET www.csgxjk.com/admin/menu/index.html
+[运行时间：0.030725s] [吞吐率：32.55req/s] [内存消耗：3,633.48kb] [文件加载：98]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/menu/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_menu` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_menu` [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:39+08:00] 106.120.98.190 GET www.csgxjk.com/admin/log/index.html
+[运行时间：0.034035s] [吞吐率：29.38req/s] [内存消耗：3,048.87kb] [文件加载：90]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/log_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看操作记录首页' , 1557201519 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.005327s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:40+08:00] 106.120.98.190 GET www.csgxjk.com/static/admin/module/admin/img/icon_date.png
+[运行时间：0.015403s] [吞吐率：64.92req/s] [内存消耗：1,726.02kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T11:58:40+08:00] 106.120.98.190 POST www.csgxjk.com/admin/log/index.html
+[运行时间：0.037491s] [吞吐率：26.67req/s] [内存消耗：3,623.19kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'content-length' => '15',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/log/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`content` , `time` , `username` , `ip` , `type` , `userid`) VALUES ('admin查看操作记录首页' , 1557201520 , 'admin' , '106.120.98.190' , 2 , 1) [ RunTime:0.005330s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_log` WHERE  ( 1=1 ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[2019-05-07T11:58:47+08:00] 106.120.98.190 GET www.csgxjk.com/admin/system/mail.html
+[运行时间：0.028413s] [吞吐率：35.20req/s] [内存消耗：3,136.47kb] [文件加载：92]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=930153472; __guid=72182549.933184552037864200.1556417535133.6458; monitor_count=3; ASPSESSIONID=rcug9j9kgvigg2q64197q0gmht',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.csgxjk.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001438s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[2019-05-07T11:59:10+08:00] 103.39.156.155 GET 39.96.87.22:80/
+[运行时间：0.016263s] [吞吐率：61.49req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T12:44:31+08:00] 95.46.139.28 GET 39.96.87.22:80/
+[运行时间：0.016758s] [吞吐率：59.67req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T12:54:52+08:00] 122.228.19.80 GET 39.96.87.22:80/
+[运行时间：0.016486s] [吞吐率：60.66req/s] [内存消耗：1,977.38kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T13:51:19+08:00] 47.92.5.11 GET csgxjk.com/wxapi/device/work
+[运行时间：0.039738s] [吞吐率：25.16req/s] [内存消耗：4,457.23kb] [文件加载：157]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[2019-05-07T13:52:30+08:00] 46.4.33.48 GET csgxjk.com/
+[运行时间：0.016618s] [吞吐率：60.18req/s] [内存消耗：1,977.07kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.1) Gecko/2008070208',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T13:56:32+08:00] 58.87.95.67 GET 39.96.87.22/2/wp-login.php
+[运行时间：0.015202s] [吞吐率：65.78req/s] [内存消耗：1,702.78kb] [文件加载：66]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T14:15:22+08:00] 91.134.138.193 GET 39.96.87.22/3/wp-login.php
+[运行时间：0.015051s] [吞吐率：66.44req/s] [内存消耗：1,702.78kb] [文件加载：66]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T14:16:39+08:00] 47.100.104.184 GET csgxjk.com/admin/login/index.html
+[运行时间：0.017748s] [吞吐率：56.34req/s] [内存消耗：2,142.65kb] [文件加载：82]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/login_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-07T14:33:52+08:00] 223.255.224.122 GET 39.96.87.22/wp/wp-login.php
+[运行时间：0.015289s] [吞吐率：65.41req/s] [内存消耗：1,702.78kb] [文件加载：66]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T14:51:54+08:00] 51.75.143.214 GET 39.96.87.22/wordpress/wp-login.php
+[运行时间：0.015145s] [吞吐率：66.03req/s] [内存消耗：1,702.79kb] [文件加载：66]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T14:54:58+08:00] 66.249.75.209 GET csgxjk.com/
+[运行时间：0.015994s] [吞吐率：62.52req/s] [内存消耗：1,977.80kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T15:10:36+08:00] 118.69.224.193 GET 39.96.87.22/wp1/wp-login.php
+[运行时间：0.015288s] [吞吐率：65.41req/s] [内存消耗：1,702.79kb] [文件加载：66]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T15:41:30+08:00] 45.127.106.22 GET 39.96.87.22:80/
+[运行时间：0.016557s] [吞吐率：60.40req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T15:49:18+08:00] 13.57.207.60 GET 39.96.87.22/
+[运行时间：0.016034s] [吞吐率：62.37req/s] [内存消耗：1,977.14kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T16:28:30+08:00] 101.251.242.238 GET 39.96.87.22:80/
+[运行时间：0.016149s] [吞吐率：61.92req/s] [内存消耗：1,965.09kb] [文件加载：69]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/plain, */*',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T16:49:56+08:00] 200.75.196.10 GET 39.96.87.22:80/
+[运行时间：0.016600s] [吞吐率：60.24req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T17:04:40+08:00] 196.220.207.140 GET 39.96.87.22:80/
+[运行时间：0.016571s] [吞吐率：60.35req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:02:09+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.014870s] [吞吐率：67.25req/s] [内存消耗：1,724.83kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T18:02:09+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.014820s] [吞吐率：67.48req/s] [内存消耗：1,724.83kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T18:02:10+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.014652s] [吞吐率：68.25req/s] [内存消耗：1,724.83kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T18:13:28+08:00] 106.120.98.190 GET csgxjk.com/admin/device/index.html
+[运行时间：0.018161s] [吞吐率：55.06req/s] [内存消耗：2,147.88kb] [文件加载：81]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:13:28+08:00] 106.120.98.190 GET csgxjk.com/admin/login/index.html
+[运行时间：0.017639s] [吞吐率：56.69req/s] [内存消耗：2,144.45kb] [文件加载：82]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/login_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-07T18:13:28+08:00] 106.120.98.190 GET csgxjk.com/admin/login/index.html
+[运行时间：0.018741s] [吞吐率：53.36req/s] [内存消耗：2,144.16kb] [文件加载：82]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/login_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-07T18:13:32+08:00] 106.120.98.190 POST csgxjk.com/admin/login/login.html
+[运行时间：0.039569s] [吞吐率：25.27req/s] [内存消耗：3,370.69kb] [文件加载：96]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://csgxjk.com',
+  'accept' => '*/*',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_admin` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`userid` , `content` , `username` , `time` , `ip`) VALUES (1 , '' , '' , 1557224012 , '106.120.98.190') [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_menu` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT `id`,`router` FROM `bg_menu` WHERE  (  router <> ''  ) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] select id,name,router,pid,menuIcon from bg_menu where isMenu&1 order by pid asc, orderNumber asc [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[2019-05-07T18:13:32+08:00] 106.120.98.190 GET csgxjk.com/admin/login/admin.html
+[运行时间：0.017445s] [吞吐率：57.32req/s] [内存消耗：2,129.05kb] [文件加载：80]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:13:32+08:00] 106.120.98.190 GET csgxjk.com/admin/login/index.html
+[运行时间：0.016917s] [吞吐率：59.11req/s] [内存消耗：2,133.49kb] [文件加载：81]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:13:32+08:00] 106.120.98.190 GET csgxjk.com/admin/index/index.html
+[运行时间：0.018082s] [吞吐率：55.30req/s] [内存消耗：2,168.36kb] [文件加载：83]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/index_index.php [ array (
+  0 => 'userinfo',
+  1 => 'menu',
+) ]
+---------------------------------------------------------------
+[2019-05-07T18:13:32+08:00] 106.120.98.190 GET csgxjk.com/admin/dashboard/welcome.html
+[运行时间：0.035253s] [吞吐率：28.37req/s] [内存消耗：3,086.95kb] [文件加载：89]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/dashboard_welcome.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001989s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[2019-05-07T18:13:32+08:00] 106.120.98.190 GET csgxjk.com/admin/device/index.html
+[运行时间：0.041378s] [吞吐率：24.17req/s] [内存消耗：3,804.38kb] [文件加载：101]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/device_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+  3 => 'objarr',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_setmeal` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `h_setmeal` [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[2019-05-07T18:13:33+08:00] 106.120.98.190 POST csgxjk.com/admin/device/index.html
+[运行时间：0.031671s] [吞吐率：31.57req/s] [内存消耗：3,627.27kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[2019-05-07T18:13:50+08:00] 106.120.98.190 GET csgxjk.com/admin/device/index.html
+[运行时间：0.032700s] [吞吐率：30.58req/s] [内存消耗：3,648.52kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/device_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+  3 => 'objarr',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_setmeal` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `h_setmeal` [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[2019-05-07T18:13:50+08:00] 106.120.98.190 POST csgxjk.com/admin/device/index.html
+[运行时间：0.031125s] [吞吐率：32.13req/s] [内存消耗：3,627.27kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[2019-05-07T18:14:29+08:00] 106.120.98.190 GET csgxjk.com/admin/device/index.html
+[运行时间：0.031969s] [吞吐率：31.28req/s] [内存消耗：3,648.52kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/admin/view/device_index.php [ array (
+  0 => 'username',
+  1 => 'web_site',
+  2 => 'all_nav',
+  3 => 'objarr',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_setmeal` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT * FROM `h_setmeal` [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[2019-05-07T18:14:29+08:00] 106.120.98.190 POST csgxjk.com/admin/device/index.html
+[运行时间：0.031970s] [吞吐率：31.28req/s] [内存消耗：3,629.20kb] [文件加载：99]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://csgxjk.com/admin/device/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://csgxjk.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[2019-05-07T18:16:42+08:00] 106.14.189.11 GET www.csgxjk.com/
+[运行时间：0.016276s] [吞吐率：61.44req/s] [内存消耗：1,977.33kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:24:02+08:00] 106.120.98.190 GET csgxjk.com/
+[运行时间：0.017024s] [吞吐率：58.74req/s] [内存消耗：1,979.12kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2703210496; ASPSESSIONID=cin2fck01qbav1253rekkrkbh6; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:24:11+08:00] 106.120.98.190 GET csgxjk.com/phpinfo.php
+[运行时间：0.015213s] [吞吐率：65.73req/s] [内存消耗：1,725.29kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T18:24:16+08:00] 106.120.98.190 GET csgxjk.com/info.php
+[运行时间：0.015547s] [吞吐率：64.32req/s] [内存消耗：1,725.29kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T18:35:30+08:00] 201.59.216.210 GET 39.96.87.22:80/
+[运行时间：0.016367s] [吞吐率：61.10req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:48:51+08:00] 47.98.34.250 GET 39.96.87.22/
+[运行时间：0.016397s] [吞吐率：60.99req/s] [内存消耗：1,977.34kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '39.96.87.22',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T18:53:33+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work/id/2
+[运行时间：0.036464s] [吞吐率：27.42req/s] [内存消耗：3,924.57kb] [文件加载：143]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+  1 => 'setmeal',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000436s ]
+[ error ] [8]未定义变量: objarr[/data/www/csgx2/runtime/temp/eeada01c1f8043f54272d5cdd26ce552.php:16]
+---------------------------------------------------------------
+[2019-05-07T18:54:34+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work/id/2
+[运行时间：0.035448s] [吞吐率：28.21req/s] [内存消耗：3,924.85kb] [文件加载：143]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/csgx2/application/wxapi/view/device_work.php [ array (
+  0 => 'dev',
+  1 => 'setmeal',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000451s ]
+[ error ] [2]Invalid argument supplied for foreach()[/data/www/csgx2/runtime/temp/eeada01c1f8043f54272d5cdd26ce552.php:16]
+---------------------------------------------------------------
+[2019-05-07T18:55:42+08:00] 106.120.98.190 GET csgxjk.com/wxapi/device/work/id/2
+[运行时间：0.031360s] [吞吐率：31.89req/s] [内存消耗：3,642.09kb] [文件加载：132]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.7.0 MicroMessenger/6.3.9 Language/zh_CN webview/0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[2019-05-07T18:59:41+08:00] 120.25.208.128 GET www.csgxjk.com/
+[运行时间：0.017863s] [吞吐率：55.98req/s] [内存消耗：1,977.22kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'host' => 'www.csgxjk.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T19:07:17+08:00] 198.108.66.176 GET 39.96.87.22/
+[运行时间：0.017016s] [吞吐率：58.77req/s] [内存消耗：1,976.82kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T19:36:32+08:00] 47.100.104.184 GET www.CSGXJK.com/
+[运行时间：0.016921s] [吞吐率：59.10req/s] [内存消耗：1,977.03kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.CSGXJK.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T19:37:11+08:00] 46.101.156.147 GET 39.96.87.22/wp-login.php
+[运行时间：0.016528s] [吞吐率：60.50req/s] [内存消耗：1,724.56kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T19:46:01+08:00] 106.14.217.247 GET csgxjk.com/
+[运行时间：0.016980s] [吞吐率：58.89req/s] [内存消耗：1,977.00kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'csgxjk.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T20:01:09+08:00] 95.213.177.125 POST check.proxyradar.com/azenv.php?auth=155723046957&a=PSCN&i=660625174&p=80
+[运行时间：0.016206s] [吞吐率：61.71req/s] [内存消耗：1,723.70kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T21:50:17+08:00] 107.170.199.239 GET 39.96.87.22/
+[运行时间：0.017499s] [吞吐率：57.15req/s] [内存消耗：1,976.82kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '39.96.87.22',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-07T22:12:44+08:00] 37.187.182.11 GET csgxjk.com/wp-login.php
+[运行时间：0.015892s] [吞吐率：62.93req/s] [内存消耗：1,724.52kb] [文件加载：67]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-05-07T22:42:18+08:00] 121.58.246.241 GET 39.96.87.22:80/
+[运行时间：0.017146s] [吞吐率：58.32req/s] [内存消耗：1,977.05kb] [文件加载：70]
+[ info ] [ LANG ] /data/www/csgx2/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '39.96.87.22:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)

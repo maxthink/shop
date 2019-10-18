@@ -1,0 +1,699 @@
+---------------------------------------------------------------
+[2019-06-25T02:03:16+08:00] 180.163.220.68 GET csgxjk.com/wx/coupon/quan
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_coupon` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `h_coupon` [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[2019-06-25T02:03:26+08:00] 180.163.220.4 GET csgxjk.com/wx/coupon/quan
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_coupon` [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SELECT * FROM `h_coupon` [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:15+08:00] 124.126.3.61 GET csgxjk.com/wx/device/work/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:18+08:00] 124.126.3.61 GET csgxjk.com/wx/device/work/45?code=021Q9FjN12uAE91NwZkN19nDjN1Q9FjU&state=f2067ab8a2827d8660ae3108e88d4aaa
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_user` WHERE  `thr_id` = 'o6sbr5j2dXfRLyO_8TKJqt_Qyyj0' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] INSERT INTO `h_user` (`usertype` , `thr_id` , `nickname` , `sex` , `avatar` , `country` , `province` , `city` , `createtime`) VALUES (1 , 'o6sbr5j2dXfRLyO_8TKJqt_Qyyj0' , 'A🍓🍓丹' , 2 , 'http://thirdwx.qlogo.cn/mmopen/vi_32/P5JHibDsE0hFg30zrR9IV1tcd8sUkyibwAAlLqEpg2TUVn40HUPF2C9VenHZg28XBhLycm91xVcG5WgDTIM8Gfgg/132' , '中国' , '北京' , '东城' , 1561425497) [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:23+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:30+08:00] 124.126.3.61 GET csgxjk.com/wx/device/record/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:30+08:00] 124.126.3.61 POST csgxjk.com/wx/device/list.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_device_record` [ RunTime:0.001739s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS id,`bill_id`,`source`,`long`,`createtime`,`status`,`usetime` FROM `h_device_record` WHERE  `user_id` = 20 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:30+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:33+08:00] 124.126.3.61 GET csgxjk.com/wx/device/work/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:33+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[2019-06-25T09:18:35+08:00] 124.126.3.61 POST csgxjk.com/wx/device/bill.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] INSERT INTO `h_bill` (`code` , `user_id` , `price` , `meal_id` , `dev_id` , `createtime`) VALUES ('201906250918359892' , 20 , 2500 , 1 , 45 , 1561425515) [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[2019-06-25T09:19:24+08:00] 101.89.29.86 GET csgxjk.com/wx/device/work/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[2019-06-25T09:19:41+08:00] 101.227.139.161 GET csgxjk.com/wx/device/record/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[2019-06-25T09:26:58+08:00] 124.126.3.61 POST csgxjk.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_admin` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`userid` , `username` , `ip` , `time`) VALUES (1 , 'admin' , '124.126.3.61' , 1561426018) [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_menu` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT `id`,`router` FROM `bg_menu` WHERE  (  router <> ''  ) [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] select id,name,router,pid,menuIcon from bg_menu where isMenu&1 order by pid asc, orderNumber asc [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[2019-06-25T09:26:59+08:00] 124.126.3.61 GET csgxjk.com/admin/dashboard/welcome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[2019-06-25T09:27:08+08:00] 124.126.3.61 GET csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_devtype` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_devtype` [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[2019-06-25T09:28:33+08:00] 124.126.3.61 GET csgxjk.com/admin/devtype/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[2019-06-25T09:29:02+08:00] 124.126.3.61 GET csgxjk.com/admin/dashboard/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT VERSION() as version [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_log` WHERE  ( userid=1 and type&1 ) ORDER BY `time` DESC LIMIT 10 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_product` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bg_product` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_article` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bg_article` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_system` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT `value` FROM `bg_system` WHERE  `name` = 'site_theme' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `value` FROM `bg_system` WHERE  `name` = 'site_mobile_theme' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`ename` FROM `bg_category` WHERE  `modelid` = 2 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2019-06-25T09:29:57+08:00] 106.120.98.190 POST csgxjk.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_admin` [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`userid` , `username` , `ip` , `time`) VALUES (1 , 'admin' , '106.120.98.190' , 1561426197) [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_menu` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `id`,`router` FROM `bg_menu` WHERE  (  router <> ''  ) [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] select id,name,router,pid,menuIcon from bg_menu where isMenu&1 order by pid asc, orderNumber asc [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[2019-06-25T09:29:57+08:00] 106.120.98.190 GET csgxjk.com/admin/dashboard/welcome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:01+08:00] 106.120.98.190 GET csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_devtype` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_devtype` [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:01+08:00] 106.120.98.190 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 0,10 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:23+08:00] 124.126.3.61 GET csgxjk.com/wx/device/work/29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:26+08:00] 124.126.3.61 GET csgxjk.com/wx/device/work/29?code=071QBZ6V1HvvhZ08yV4V1ur77V1QBZ68&state=b5f30161835d7fe1d9c498deedeb090b
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_user` WHERE  `thr_id` = 'o6sbr5nrpv-SGvsoMVtbRBwM_g6o' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:26+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:36+08:00] 124.126.3.61 POST csgxjk.com/wx/device/bill.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] INSERT INTO `h_bill` (`code` , `user_id` , `price` , `meal_id` , `dev_id` , `createtime`) VALUES ('201906250930367160' , 13 , 2500 , 1 , 29 , 1561426236) [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `thr_id` FROM `h_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:41+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:43+08:00] 106.120.98.190 GET csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[2019-06-25T09:30:43+08:00] 106.120.98.190 POST csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_meal` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[2019-06-25T09:31:24+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[2019-06-25T09:31:38+08:00] 61.129.6.159 GET csgxjk.com/wx/device/work/29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:05+08:00] 124.126.3.61 POST csgxjk.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_admin` [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_log` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] INSERT INTO `bg_log` (`userid` , `username` , `ip` , `time`) VALUES (1 , 'admin' , '124.126.3.61' , 1561426325) [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_role` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_menu` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT `id`,`router` FROM `bg_menu` WHERE  (  router <> ''  ) [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `power` FROM `bg_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] select id,name,router,pid,menuIcon from bg_menu where isMenu&1 order by pid asc, orderNumber asc [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:06+08:00] 124.126.3.61 GET csgxjk.com/admin/dashboard/welcome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:10+08:00] 124.126.3.61 GET csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_devtype` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_devtype` [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:11+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 0,10 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000187s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:17+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 10,10 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:20+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 20,10 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000172s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:21+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 30,10 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:22+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001123s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 40,10 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:22+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 50,10 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:22+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 60,10 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000182s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:25+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 0,10 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000190s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:32+08:00] 106.120.98.190 POST csgxjk.com/admin/setmeal/update.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] UPDATE `h_meal`  SET `price` = 6800  WHERE  `id` = 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[2019-06-25T09:32:32+08:00] 106.120.98.190 POST csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_meal` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:37+08:00] 124.126.3.61 GET csgxjk.com/admin/bill/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:38+08:00] 124.126.3.61 POST csgxjk.com/admin/bill/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_bill` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000185s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:45+08:00] 124.126.3.61 GET csgxjk.com/admin/bill/count.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:46+08:00] 124.126.3.61 POST csgxjk.com/admin/bill/count.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select SQL_CALC_FOUND_ROWS dev_id, sum(price) as money from h_bill group by dev_id limit 0,10 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000156s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:51+08:00] 124.126.3.61 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:54+08:00] 124.126.3.61 GET csgxjk.com/admin/exchange/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[2019-06-25T09:33:55+08:00] 124.126.3.61 POST csgxjk.com/admin/exchange/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_exchange` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_exchange` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000175s ]
+---------------------------------------------------------------
+[2019-06-25T09:34:13+08:00] 124.126.3.61 GET csgxjk.com/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[2019-06-25T09:34:14+08:00] 124.126.3.61 POST csgxjk.com/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_user` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[2019-06-25T09:34:33+08:00] 124.126.3.61 GET csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-06-25T09:34:33+08:00] 124.126.3.61 POST csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_meal` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000167s ]
+---------------------------------------------------------------
+[2019-06-25T09:35:55+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=29 ) LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[2019-06-25T09:52:32+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=29 ) LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/dashboard/welcome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_devtype` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_devtype` [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/bill/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/bill/count.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/exchange/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:19+08:00] 124.126.3.61 GET csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:22+08:00] 124.126.3.61 POST csgxjk.com/admin/bill/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001783s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_bill` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:22+08:00] 124.126.3.61 POST csgxjk.com/admin/bill/count.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select SQL_CALC_FOUND_ROWS dev_id, sum(price) as money from h_bill group by dev_id limit 0,10 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000149s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:22+08:00] 124.126.3.61 POST csgxjk.com/admin/exchange/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_exchange` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_exchange` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000170s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:22+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 0,10 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000170s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:22+08:00] 124.126.3.61 POST csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000326s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_meal` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:22+08:00] 124.126.3.61 POST csgxjk.com/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_user` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:41+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=27 ) LIMIT 1 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[2019-06-25T10:03:56+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=45 ) LIMIT 1 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[2019-06-25T10:07:33+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=29 ) LIMIT 1 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[2019-06-25T10:09:38+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=29 ) LIMIT 1 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[2019-06-25T10:21:35+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=45 ) LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:16+08:00] 124.126.3.61 GET csgxjk.com/admin/dashboard/welcome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:17+08:00] 124.126.3.61 GET csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_devtype` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_devtype` [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:17+08:00] 124.126.3.61 GET csgxjk.com/admin/bill/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:17+08:00] 124.126.3.61 GET csgxjk.com/admin/bill/count.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:17+08:00] 124.126.3.61 GET csgxjk.com/admin/exchange/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:17+08:00] 124.126.3.61 GET csgxjk.com/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:17+08:00] 124.126.3.61 GET csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:19+08:00] 124.126.3.61 POST csgxjk.com/admin/exchange/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009917s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.002584s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_exchange` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_exchange` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000185s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:19+08:00] 124.126.3.61 POST csgxjk.com/admin/bill/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_bill` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_bill` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000184s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:19+08:00] 124.126.3.61 POST csgxjk.com/admin/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_user` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000168s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:19+08:00] 124.126.3.61 POST csgxjk.com/admin/bill/count.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000344s ]
+[ sql ] [ SQL ] select SQL_CALC_FOUND_ROWS dev_id, sum(price) as money from h_bill group by dev_id limit 0,10 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000148s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:19+08:00] 124.126.3.61 POST csgxjk.com/admin/setmeal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000310s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `h_meal` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000165s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:19+08:00] 124.126.3.61 POST csgxjk.com/admin/device/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000314s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT SQL_CALC_FOUND_ROWS * FROM `bg_device` WHERE  ( 1=1 ) ORDER BY `lasttime` DESC LIMIT 0,10 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select found_rows() as coun [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[2019-06-25T10:38:28+08:00] 124.126.3.61 POST csgxjk.com/admin/device/work.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_category` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_category` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT `imei` FROM `bg_device` WHERE  ( id=45 ) LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2019-06-25T10:42:21+08:00] 220.195.66.55 GET csgxjk.com/wx/device/work/56
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` IN (1,2) [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[2019-06-25T10:42:26+08:00] 220.195.66.55 GET csgxjk.com/wx/device/work/56?code=011xGzil2anwDD0ulQhl2npril2xGzii&state=acad710ede37224cb84d6b443f0e89f0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_user` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_user` WHERE  `thr_id` = 'o6sbr5m5EPIVVVyiGfs0i6M0jARM' LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] INSERT INTO `h_user` (`usertype` , `thr_id` , `nickname` , `sex` , `avatar` , `country` , `province` , `city` , `createtime`) VALUES (1 , 'o6sbr5m5EPIVVVyiGfs0i6M0jARM' , '🙄' , 1 , 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIXjWIicgoot0T1Bm6MQwqOZIiaribm4m9G1Dib1RiamdeVyt462UIs8kLFV2ez6RMdsWFQGEchURQSzqw/132' , '阿尔及利亚' , '' , '' , 1561430545) [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` IN (1,2) [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[2019-06-25T10:42:26+08:00] 220.195.66.55 POST csgxjk.com/wx/device/status.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[2019-06-25T16:54:28+08:00] 47.98.62.203 GET csgxjk.com/wx/device/work/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[2019-06-25T17:07:53+08:00] 47.92.137.155 GET csgxjk.com/wx/device/record/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[2019-06-25T17:12:09+08:00] 106.14.190.222 GET csgxjk.com/wx/device/record/27
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[2019-06-25T17:59:30+08:00] 47.92.148.120 GET csgxjk.com/wx/device/work/36?code=02141dsf2dlq9j0woytf20yasf241dso&state=32d990187ac1621640f7570ab3e7901f
+[ error ] [-1]Authorize Failed: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 6imChNwgE-De9j6a ]"}
+---------------------------------------------------------------
+[2019-06-25T18:04:16+08:00] 101.132.126.80 GET csgxjk.com/wx/device/record/27
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[2019-06-25T18:05:15+08:00] 47.97.215.92 GET csgxjk.com/wx/device/record/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[2019-06-25T18:12:15+08:00] 47.100.38.232 GET csgxjk.com/wx/device/work/45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=liangzi;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bg_device` [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `bg_device` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_meal` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `h_meal` WHERE  `id` = 1 [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[2019-06-25T18:18:19+08:00] 47.92.148.120 GET csgxjk.com/wx/device/work/27?code=071ssij12z4rfw0mebj12ojhj12ssij6&state=1fd5a43143c6326becb45e6debb8f541
+[ error ] [-1]Authorize Failed: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: IImCzfyFe-wkONoa ]"}
+---------------------------------------------------------------
+[2019-06-25T18:21:08+08:00] 106.14.217.247 GET csgxjk.com/wx/device/work/45?code=081c6osf05uyse26omsf0zmssf0c6osh&state=d044e79d5399edcd85d60ea5f1ef79d6
+[ error ] [-1]Authorize Failed: {"errcode":40029,"errmsg":"invalid code, hints: [ req_id: kImCY6yFe-Wg8bTA ]"}

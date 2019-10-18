@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <h3>WebSocket协议的客户端程序</h3>
+  <button id="btConnect">连接到WS服务器</button>
+<br/><br/>
+  <button id="bt112">启动心跳</button> &nbsp; 
+  <button id="btheart">发一个心跳</button>  &nbsp; 
+  <button id="btnull">发一个空包</button><br/>
+  <button id="bterrhreat">发一个错误心跳包</button> &nbsp;
+  <button id="bterr">发一个错误包</button> &nbsp;
+  <br/><br/>
+
+  
+  <button id="btstart">启动 900秒</button><br/>
+  <button id="btstop">命令停止</button><br/><br/>
+  
+  <button id="btqr">获取qrcode</button><br/>
+  <button id="bttn">获取服务电话</button><br/>
+  <button id="btex">确认启动</button><br/>
+  <button id="btst">确认停止</button><br/>
+  
+  <br/>
+  <button id="btClose">断开与WS服务器的连接</button>
+  <div id="val"></div>
+  <script>
+    var wsClient = null; //WS客户端对象
+ 
+    btConnect.onclick = function(){
+      
+      //连接到WS服务器，注意：协议名不是http！
+      wsClient = new WebSocket('ws://39.96.87.22:12303');
+      
+      wsClient.onopen = function(){
+        console.log('WS客户端已经成功连接到服务器上');
+        val.innerHTML += e.data+'<br/>';
+      };
+    };
+    
+    btheart.onclick = function(){
+        wsClient.send('123456787654321HT');
+        val.innerHTML += 'client send: 123456787654321HT <br/>';
+    };
+    
+    bterrhreat.onclick = function(){
+        wsClient.send('123456787654320HT');
+        val.innerHTML += 'client send: 123456787654320HT <br/>';
+    };
+    
+    bterr.onclick = function(){
+        wsClient.send('123s765s20HT');
+        val.innerHTML += 'client send: 123s765s20HT<br/>';
+    };
+    
+    btnull.onclick = function(){
+        mytime();
+    };
+    
+    bt112.onclick = function(){
+        
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+          if(e.data==='404'){
+              wsClient.send('123456787654321HT');
+              val.innerHTML += '发送消息：123456787654321HT <br/>';
+          }
+        };
+        setInterval(mytime,30000);
+    };
+    
+    //心跳
+    function mytime(){
+        wsClient.send('');
+        val.innerHTML += '发送消息： "" (空内容) <br/>';
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+          if(e.data==='404'){
+              wsClient.send('123456787654321HT');
+              val.innerHTML += '发送消息：123456787654321HT <br/>';
+          }
+        };
+    }
+    
+    btstart.onclick = function(){
+        wsClient.send('command{"appid":"1","imei":"123456787654321","type":"start","long":"0900"}');
+         val.innerHTML += '发送：command{"appid":"1","imei":"123456787654321","type":"start","long":"0900"} <br/>';
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+e.data+'<br/>';
+        };
+    };
+    
+    btstop.onclick = function(){
+        wsClient.send('command{"imei":"123456787654321","type":"stop"}');
+        val.innerHTML += '发送：command{"imei":"123456787654321","type":"stop"}';
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+        };
+    };
+    
+    btqr.onclick = function(){
+        wsClient.send('123456787654321QR');
+        val.innerHTML += '发送：123456787654321QR';
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+        };
+    };
+    
+    bttn.onclick = function(){
+        wsClient.send('123456787654321TN');
+        val.innerHTML += '发送：123456787654321TN';
+         //接收WS服务器返回的消息
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+        };
+    };
+    btex.onclick = function(){
+        wsClient.send('123456787654321QD0');
+        val.innerHTML += '发送：123456787654321QD0';
+         //接收WS服务器返回的消息
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+        };
+    };
+    
+    btst.onclick = function(){
+        wsClient.send('123456787654321ST0');
+        val.innerHTML += '发送：123456787654321ST0';
+         //接收WS服务器返回的消息
+        wsClient.onmessage = function(e){
+          console.log('收到消息：'+ e.data);
+          val.innerHTML += '收到消息：'+ e.data+'<br/>';
+        };
+    };
+ 
+    btClose.onclick = function(){
+      
+      //断开到WS服务器的连接
+      wsClient.close();  //向服务器发消息，主动断开连接
+      
+      wsClient.onclose = function(){
+        //经过客户端和服务器的四次挥手后，二者的连接断开了
+        console.log('到服务器的连接已经断开');
+        val.innerHTML += '到服务器的连接已经断开<br/>';
+      };
+      
+    };
+  </script>
+</body>

